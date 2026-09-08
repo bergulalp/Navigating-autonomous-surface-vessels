@@ -1,0 +1,1142 @@
+[
+  {
+    "t": 0.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9975065739360977,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 60.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9947693859609369,
+    "predicted_energy_wh": 3.1508651130054157e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 120.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9966638606577334,
+    "predicted_energy_wh": 8.485124045187773e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 180.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9967390353127091,
+    "predicted_energy_wh": 1.3627215790632875e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 240.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9882786073779206,
+    "predicted_energy_wh": 3.2194625249252536e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 300.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9951836615828767,
+    "predicted_energy_wh": 1.1697062883987619e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 360.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9978684380592617,
+    "predicted_energy_wh": 1.2632469493324644e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 420.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9855884428086412,
+    "predicted_energy_wh": 1.7483113837419794e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 480.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9970780067250594,
+    "predicted_energy_wh": 2.477033603919652e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 540.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9766880481648919,
+    "predicted_energy_wh": 1.7266853956088258e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 600.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9927303628710135,
+    "predicted_energy_wh": 1.7809212587362656e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 660.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9966039541154829,
+    "predicted_energy_wh": 2.5852561397234776e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 720.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9960192640923061,
+    "predicted_energy_wh": 6.771767683032689e-08,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 780.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9978673882110346,
+    "predicted_energy_wh": 5.502936593514167e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 840.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9939145696287176,
+    "predicted_energy_wh": 6.680715748256837e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 900.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9892380144726608,
+    "predicted_energy_wh": 1.0461730773527855e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 960.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.0018497797770105073,
+    "predicted_coverage": 0.9590701514667158,
+    "predicted_energy_wh": 3.074663104089749,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1020.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9729978515336559,
+    "predicted_energy_wh": 0.061478864729010305,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1080.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.004400426513290978,
+    "predicted_coverage": 0.8287217597946411,
+    "predicted_energy_wh": 4.200010904179844,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1140.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6422796572386542,
+    "predicted_energy_wh": 0.12053981288949463,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1200.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 4,
+    "predicted_gain": 0.004009129848563053,
+    "predicted_coverage": 0.7417997773878645,
+    "predicted_energy_wh": 2.6492830999575037,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1260.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.0029919157274563846,
+    "predicted_coverage": 0.5156524479758989,
+    "predicted_energy_wh": 2.855135286982945,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1320.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6247575480088131,
+    "predicted_energy_wh": 0.09315037478177383,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1380.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.5906330147950603,
+    "predicted_energy_wh": 0.000600515318838362,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1440.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.000653862551742157,
+    "predicted_coverage": 0.6333808027668537,
+    "predicted_energy_wh": 2.3931763552958896,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1500.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 4,
+    "predicted_gain": 0.0038074113980580138,
+    "predicted_coverage": 0.47490670026576454,
+    "predicted_energy_wh": 4.4863473761999195,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1560.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.36247507420797415,
+    "predicted_energy_wh": 0.2809701996854572,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1620.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.015905441946883897,
+    "predicted_coverage": 0.20966721420842724,
+    "predicted_energy_wh": 5.293560777383395,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1680.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.0010169676431142083,
+    "predicted_coverage": 0.26611665884361213,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1740.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.010906232359153722,
+    "predicted_coverage": 0.20621866857226714,
+    "predicted_energy_wh": 4.764492445681997,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1800.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 4,
+    "predicted_gain": 0.0040384317198208786,
+    "predicted_coverage": 0.32677173098442175,
+    "predicted_energy_wh": 4.394786392339974,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1860.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.002538376423671135,
+    "predicted_coverage": 0.24274723262947143,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1920.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 4,
+    "predicted_gain": 0.0036547911975063907,
+    "predicted_coverage": 0.39882923330973447,
+    "predicted_energy_wh": 3.115853932543323,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 1980.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.002871628577246821,
+    "predicted_coverage": 0.33784112324697185,
+    "predicted_energy_wh": 4.157393740616049,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2040.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.2171773261831957,
+    "predicted_energy_wh": 0.48992703285712785,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2100.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 6,
+    "predicted_gain": 0.012062970038855175,
+    "predicted_coverage": 0.18532360364486652,
+    "predicted_energy_wh": 4.2233377487684205,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2160.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 4,
+    "predicted_gain": 0.004658182931345456,
+    "predicted_coverage": 0.2919559712787767,
+    "predicted_energy_wh": 3.7608715941886293,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2220.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.2872740844047458,
+    "predicted_energy_wh": 3.0705902779648566,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2280.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.0017464754926405646,
+    "predicted_coverage": 0.27642842722324845,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 5,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2340.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.27643912669118853,
+    "predicted_energy_wh": 0.00021926456421462545,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2400.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.0012675399636822293,
+    "predicted_coverage": 0.19747714534059302,
+    "predicted_energy_wh": 3.2217067744524512,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2460.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.003658764462887376,
+    "predicted_coverage": 0.2719429703503323,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2520.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 4,
+    "predicted_gain": 0.004378437054285866,
+    "predicted_coverage": 0.4014519464357567,
+    "predicted_energy_wh": 2.175329168050811,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2580.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.29323767511914267,
+    "predicted_energy_wh": 0.15504631399334998,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2640.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.289995371762235,
+    "predicted_energy_wh": 0.0013459545547806402,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2700.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.0012963126706388994,
+    "predicted_coverage": 0.3671474004158661,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 4,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2760.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.0015766613721892586,
+    "predicted_coverage": 0.2438091850367733,
+    "predicted_energy_wh": 4.130072808594335,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2820.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.16956763674571196,
+    "predicted_energy_wh": 0.1321708956614563,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2880.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.001008709742397751,
+    "predicted_coverage": 0.32374731550013397,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 5,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 2940.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.25870808484213614,
+    "predicted_energy_wh": 3.429834793536286e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3000.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.2984896927200896,
+    "predicted_energy_wh": 3.800247700836188e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3060.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.0018608292281682703,
+    "predicted_coverage": 0.3251402121765887,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 5,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3120.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.306783992142127,
+    "predicted_energy_wh": 4.601302608506202e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3180.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.2395599286225871,
+    "predicted_energy_wh": 2.398970487965756e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3240.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.0014570767054466471,
+    "predicted_coverage": 0.2878103384214115,
+    "predicted_energy_wh": 7.2869084797208314,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3300.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.016151701135465824,
+    "predicted_coverage": 0.18631440331994287,
+    "predicted_energy_wh": 4.1366452309583455,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3360.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.0049081771784375006,
+    "predicted_coverage": 0.2971458804780691,
+    "predicted_energy_wh": 0.0,
+    "moving_vessels": 6,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3420.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.22947054663982858,
+    "predicted_energy_wh": 0.08198632671359779,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3480.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.3906210669386176,
+    "predicted_energy_wh": 0.0009729419016617306,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "t": 3540.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.2270999297591857,
+    "predicted_energy_wh": 1.5833583506928304e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+]

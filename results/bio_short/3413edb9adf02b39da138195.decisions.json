@@ -1,0 +1,1562 @@
+[
+  {
+    "t": 0.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 9,
+    "predicted_gain": 0.02049770596721734,
+    "predicted_coverage": 0.8759240453674183,
+    "predicted_energy_wh": 5.399999999086374,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 60.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8101538415538295,
+    "predicted_energy_wh": 5.3560131322156055,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 120.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7747820021358081,
+    "predicted_energy_wh": 4.16641082076508,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 180.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 9,
+    "predicted_gain": 0.025161121129274155,
+    "predicted_coverage": 0.8053057059845091,
+    "predicted_energy_wh": 5.428604692986034,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 240.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8648245072930787,
+    "predicted_energy_wh": 2.9539447225808413,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 300.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 6,
+    "predicted_gain": 0.0015797488815756378,
+    "predicted_coverage": 0.8410721988033748,
+    "predicted_energy_wh": 3.226690405041537,
+    "moving_vessels": 2,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 360.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 9,
+    "predicted_gain": 0.013262552685909035,
+    "predicted_coverage": 0.7703705600898956,
+    "predicted_energy_wh": 3.7489358308791987,
+    "moving_vessels": 2,
+    "eligible": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 420.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.01257019066034959,
+    "predicted_coverage": 0.5303353629900641,
+    "predicted_energy_wh": 3.7526971971122864,
+    "moving_vessels": 1,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 480.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 9,
+    "predicted_gain": 0.012782087877736714,
+    "predicted_coverage": 0.7383548060326763,
+    "predicted_energy_wh": 5.029948708455381,
+    "moving_vessels": 2,
+    "eligible": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 540.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7865531951291218,
+    "predicted_energy_wh": 0.15751425485071302,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 600.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 9,
+    "predicted_gain": 0.009660219465055686,
+    "predicted_coverage": 0.6900030076300551,
+    "predicted_energy_wh": 5.400022592772934,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 660.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8297902558348312,
+    "predicted_energy_wh": 0.897681673771371,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 720.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.005459672932530024,
+    "predicted_coverage": 0.6918006273202941,
+    "predicted_energy_wh": 2.106450597579312,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 780.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.0009252117504815471,
+    "predicted_coverage": 0.8348966903103078,
+    "predicted_energy_wh": 2.14387374063741,
+    "moving_vessels": 2,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 840.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0025775434548318543,
+    "predicted_coverage": 0.6659001027113105,
+    "predicted_energy_wh": 0.26898087102239593,
+    "moving_vessels": 2,
+    "eligible": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 900.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0016744789757151546,
+    "predicted_coverage": 0.8247499690393676,
+    "predicted_energy_wh": 0.04879024906248587,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 960.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.005076284883171467,
+    "predicted_coverage": 0.6615391213160544,
+    "predicted_energy_wh": 0.2688456250527972,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1020.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0025010960919273906,
+    "predicted_coverage": 0.6675424011556524,
+    "predicted_energy_wh": 0.05477726305538527,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1080.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.006743416911850875,
+    "predicted_coverage": 0.7016842572616936,
+    "predicted_energy_wh": 3.0881520226777024,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1140.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7956399558700952,
+    "predicted_energy_wh": 0.2911986856946547,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1200.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.002690448752695307,
+    "predicted_coverage": 0.7901387672688215,
+    "predicted_energy_wh": 0.3802060528196835,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1260.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0013883536757823833,
+    "predicted_coverage": 0.7225185217091864,
+    "predicted_energy_wh": 0.31205551896430367,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1320.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0016079049994285333,
+    "predicted_coverage": 0.7235136971626424,
+    "predicted_energy_wh": 0.44672279900297823,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1380.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7084676165257698,
+    "predicted_energy_wh": 0.02389748589010675,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1440.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7407191003592194,
+    "predicted_energy_wh": 9.374297978435528e-05,
+    "moving_vessels": 0,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1500.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 5,
+    "predicted_gain": 0.004682606449374349,
+    "predicted_coverage": 0.830288177147552,
+    "predicted_energy_wh": 1.827531656803689,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1560.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0011683725425331026,
+    "predicted_coverage": 0.8718088747230013,
+    "predicted_energy_wh": 0.4887492444636051,
+    "moving_vessels": 2,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1620.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6640374020658826,
+    "predicted_energy_wh": 0.01397071814729649,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1680.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0046218321462551115,
+    "predicted_coverage": 0.6841028172271265,
+    "predicted_energy_wh": 0.4180869206997101,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1740.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.004478285733437781,
+    "predicted_coverage": 0.7893822832639111,
+    "predicted_energy_wh": 0.2924147000759113,
+    "moving_vessels": 2,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1800.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 1,
+    "predicted_gain": 0.0006602802907286209,
+    "predicted_coverage": 0.742301085338105,
+    "predicted_energy_wh": 0.222680236089422,
+    "moving_vessels": 2,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1860.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7641783911289194,
+    "predicted_energy_wh": 0.06474674406167423,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1920.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.002032463355023939,
+    "predicted_coverage": 0.78230205199652,
+    "predicted_energy_wh": 0.27426142117458235,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 1980.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0012199698128643188,
+    "predicted_coverage": 0.7948441718357214,
+    "predicted_energy_wh": 0.05457566628874446,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 2040.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.008732783910600839,
+    "predicted_coverage": 0.6333182215293789,
+    "predicted_energy_wh": 0.27460568646363565,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 2100.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.00554789884768947,
+    "predicted_coverage": 0.6947819627346344,
+    "predicted_energy_wh": 2.4915874904203132,
+    "moving_vessels": 3,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 2160.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.003726910293497032,
+    "predicted_coverage": 0.7212446916478562,
+    "predicted_energy_wh": 0.3206461516547843,
+    "moving_vessels": 3,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 2220.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6784468547526528,
+    "predicted_energy_wh": 0.09997681023853809,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 2280.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9185846707957972,
+    "predicted_energy_wh": 0.00015430249923887622,
+    "moving_vessels": 0,
+    "eligible": [
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  },
+  {
+    "t": 2340.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9187030482055825,
+    "predicted_energy_wh": 6.978740367038604e-06,
+    "moving_vessels": 0,
+    "eligible": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "commitment": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "next_move": [
+      0.0,
+      60.0,
+      0.0,
+      60.0,
+      0.0,
+      60.0
+    ]
+  }
+]

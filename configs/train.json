@@ -1,0 +1,6 @@
+{
+  "duration_s": 2400,
+  "warmup_s": 300,
+  "grid_angles": 32,
+  "target_count": 20
+}

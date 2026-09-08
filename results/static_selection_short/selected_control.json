@@ -1,0 +1,12 @@
+{
+  "horizon_s": 300.0,
+  "step_m": 120.0,
+  "gradient_delta_m": 80.0,
+  "energy_price": 0.025,
+  "improvement_floor": 0.0005,
+  "active_vessels": 2,
+  "activity_memory_s": 120.0,
+  "refractory_memory_s": 480.0,
+  "social_gain": 0.5,
+  "static_radius": 0.85
+}

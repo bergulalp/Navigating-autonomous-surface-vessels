@@ -1,0 +1,125 @@
+\section{Experimental design}
+\subsection{Development, static selection and held-out runs}
+Controller development used seeds 100--102, followed by a frozen internal
+evaluation protocol. An initial 28-episode exploratory run used an earlier
+extension hash and is excluded from final estimates. The finalized algorithms
+were checked in a further 45 development episodes. This is development/test
+separation, not an external preregistration.
+
+A static ring was selected \emph{before} inspecting held-out outcomes, separately
+for each known radio hardware profile. Eight radii, from $0.75R$ to $1.10R$ in
+$0.05R$ increments, were evaluated using four development seeds and an equal
+mixture of all six scenarios: $8\times4\times6\times2=384$ episodes.
+The selection criterion was
+$\bar C-0.025E/[N(100~\mathrm W)T/3600]$.
+It selected $0.90R$ for nominal radio and $0.85R$ for shorter radio.
+The nominal $0.95R$ choice was close in development utility, so this should not
+be interpreted as precise identification of a unique best radius.
+These are optimized \emph{within the declared ring family}; arbitrary static
+nonuniform formations were not globally optimized.
+
+All policies start on the same $R=2500$ m ring. A selected static formation must
+physically redeploy and pay its energy cost, just as adaptive policies do.
+The main held-out experiment uses 20 seeds, 7000--7019, for each of three
+demanding scenarios and two radio profiles, with eight policies:
+$20\times3\times2\times8=960$ one-hour episodes.
+
+\begin{table}[t]
+\centering\small
+\caption{Main common parameters. Full configurations are released.}
+\label{tab:parameters}
+\begin{tabular}{@{}p{.54\columnwidth}r@{}}
+\toprule
+Quantity & Value\\
+\midrule
+Vessels $N$ & 6\\
+Mission duration / warm-up & 3600 / 300 s\\
+Communication / motion step & 5 / 1 s\\
+Decision interval / horizon & 60 / 300 s\\
+Report deadline & 30 s\\
+Maximum through-water speed & 3 m/s\\
+Annular radii & 2250, 2500, 2750 m\\
+Angular samples per annulus & 64\\
+Planner paths & 32\\
+Calm radio half-range & 4600 or 3200 m\\
+Wave spatial / temporal scale & 350 m / 15 s\\
+Per-vessel battery parameter & 1800 Wh\\
+Local step / difference increment & 120 / 80 m\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The storm scenario ramps severity from 0.18 to 0.88 between 22\% and 44\% of the
+mission. In the sensor-fault scenario, vessel 0 loses range and availability
+after 40\% of the mission. The moving-priority scenario combines a rotating
+spatial priority with sinusoidal severity. Its priority makes one revolution
+per hour, corresponding to 4.36 m/s at $R$; this exceeds the specified
+through-water speed limit and creates a deliberate response challenge.
+This is a scheduled attention pattern, not an adversarial target.
+
+Calm, intermittent-weather and complete temporary-blackout scenarios were
+included in static selection. Additional held-out negative controls and
+sensitivity experiments are reported separately from the main estimand.
+Full blackout removes every off-diagonal radio opportunity; no formation rule
+can restore communication under that stipulated channel condition.
+
+\subsection{Policies and what comparisons isolate}
+The outer fixed ring is retained as a diagnostic baseline. The stronger
+\texttt{static\_tuned} policy holds the development-selected radius. The inherited
+\texttt{adaptive} controller evaluates an eight-option formation library using
+health estimates and temporal coverage, with a distance penalty. Its large
+reconfigurations and penalty differ from the new local economic architecture;
+an improvement over it cannot be attributed solely to biology.
+
+The five new main policies are economic, hydraulic fungal, deadline fusion,
+instantaneous sparse recruitment, and ant-inspired recruitment.
+The three planned biological contrasts are hydraulic fungal versus economic,
+deadline fusion versus hydraulic fungal, and ant-inspired recruitment versus
+instantaneous sparse recruitment. All share online information, physical
+execution and the final economic scoring rule.
+
+Exploratory comparisons remove the economic energy price, compare fungal
+fusion with branch-only proposals at six step scales, and remove social coupling
+while retaining recruitment memory. The branch-only comparison has an equal
+number of scored candidates but a different direction/step set; it does not
+isolate fusion independently of proposal diversity. Low/high energy prices
+probe the coverage--energy trade-off.
+
+Model sensitivity includes a probit sensing curve while the planner retains a
+logistic curve, longer wave correlation, a slower priority rotation, and a
+larger planning-integration sample. These are limited perturbations of one
+simulator family, not evidence of real-world generalization.
+
+\subsection{Statistical analysis}
+The experimental unit is an independently seeded full mission. Exogenous
+hardware, target and environmental streams are paired across policies; fixed
+array dimensions avoid policy-dependent random-tape shifts. The same seed
+also couples scenarios/hardware profiles, so pooled uncertainty resamples
+\emph{whole seed blocks} across the six main cells.
+Neither time steps nor separate cells of one seed are treated as independent
+replicates.
+
+The pooled estimand is the equal-weight mean over those six hardware/scenario
+cells. Paired differences use 20,000 percentile bootstrap replicates and
+two-sided sign-randomization tests. The three exploratory pooled biological
+coverage comparisons receive Holm adjustment. Intervals quantify simulation
+variation conditional on the models and parameter choices; they omit
+structural model error and uncertainty from static-selection development.
+Energy is reported alongside coverage, not hidden inside a single utility.
+
+\subsection{Verification and learning}
+Verification checks include causal one-hop forwarding, shared-route dependence,
+absence of hidden-health observation leakage, exact finite-network enumeration
+of deadline influence, hydraulic-gradient finite differences, and numerical
+integration of the guidance-energy formula. The residual-learning adapter's
+neutral action reproduces the economic controller's trajectory exactly in a
+paired test.
+
+A dependency-light residual learner is supplied and exercised separately.
+It uses a linear-softmax policy over four recent observations and nine choices
+of local step size and energy price. Episode policy-gradient updates use a
+return baseline formed from previous episodes and Adam optimization.
+It selects parameters around the economic controller, not unconstrained
+vessel thrust or heading. This learning demonstration is not included in the
+main biological hypothesis test. Optional PPO code follows the same mission
+adapter; its validation status is documented explicitly in the release.

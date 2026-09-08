@@ -1,0 +1,2 @@
+{"requested_steps": 512, "actual_added_steps": 512, "total_steps": 512, "wall_s": 129.03028765099998, "steps_per_second": 3.968060595081778, "checkpoint_sha256": "143de10f1b491f02124009fec980bf54be092cb0d89030ed1130441355ad710c"}
+{"requested_steps": 128, "actual_added_steps": 128, "total_steps": 640, "wall_s": 27.166508735000207, "steps_per_second": 4.7116838327882045, "checkpoint_sha256": "963da9d8a27020b8b69a9f56258f8774db3efb6eb9cb15649d704380eae25763"}

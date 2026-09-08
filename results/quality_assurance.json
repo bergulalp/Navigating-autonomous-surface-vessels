@@ -1,0 +1,16 @@
+{
+  "core_unittests": {
+    "passed": 17,
+    "failed": 0
+  },
+  "paper": {
+    "pages": 14,
+    "scientific_figures": 7,
+    "tables": 4,
+    "latex_unresolved_citations": 0,
+    "latex_overfull_boxes": 0,
+    "visual_review": "All pages reviewed; final appendix layout confirmed separately."
+  },
+  "github_ci": "Workflow supplied; external GitHub execution not performed",
+  "optional_ppo": "Environment checker, training, resume and saved-policy evaluation executed"
+}

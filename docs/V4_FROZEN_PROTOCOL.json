@@ -1,0 +1,117 @@
+{
+  "frozen_at_utc": "2026-09-07T08:25:33.720514+00:00",
+  "bio_sha256": "c0fe73465d6965ca2bb4364f81301a8b440c92e12f3e3c05513c1a0c2330e6a1",
+  "rl_source_sha256": "5113616c5fa00215ac2ca5cfa63d5545c3ead1d5a52d320aad84b253498818e5",
+  "pilot": {
+    "seed": 16000,
+    "scenarios": [
+      "storm",
+      "moving_front"
+    ],
+    "purpose": "integration and timing; no parameter selection"
+  },
+  "main": {
+    "profiles": [
+      "bio_nominal",
+      "bio_short"
+    ],
+    "policies": [
+      "economic",
+      "periodic_handover",
+      "greedy_handover",
+      "reciprocal_handover",
+      "linear_inhibition",
+      "nonlinear_inhibition"
+    ],
+    "scenarios": [
+      "storm",
+      "sensor_fault",
+      "moving_front",
+      "intermittent"
+    ],
+    "seeds": [
+      17000,
+      17001,
+      17002,
+      17003,
+      17004,
+      17005,
+      17006,
+      17007,
+      17008,
+      17009,
+      17010,
+      17011
+    ]
+  },
+  "primary_contrasts": [
+    [
+      "reciprocal_handover",
+      "periodic_handover"
+    ],
+    [
+      "reciprocal_handover",
+      "greedy_handover"
+    ],
+    [
+      "nonlinear_inhibition",
+      "linear_inhibition"
+    ]
+  ],
+  "primary_outcomes": [
+    "delivered",
+    "energy_wh"
+  ],
+  "inference": "Paired seed-block bootstrap, equal weight across 8 scenario/profile cells; Holm correction for three coverage contrasts. 12 seed blocks; exploratory synthetic study.",
+  "shifted": {
+    "profile": "bio_shifted",
+    "seed_start": 17500,
+    "seeds": 4,
+    "scenarios": [
+      "storm",
+      "sensor_fault",
+      "moving_front",
+      "intermittent"
+    ]
+  },
+  "integration": {
+    "profile": "bio_integration128",
+    "seed_start": 17700,
+    "seeds": 4,
+    "scenarios": [
+      "storm",
+      "moving_front"
+    ]
+  },
+  "rl": {
+    "training_seeds": [
+      0,
+      1,
+      2
+    ],
+    "training_steps_each": 2048,
+    "dev_world_seeds": [
+      15000,
+      15001,
+      15002
+    ],
+    "test_world_seeds": [
+      18000,
+      18001,
+      18002,
+      18003,
+      18004,
+      18005,
+      18006,
+      18007
+    ],
+    "profile": "bio_short",
+    "scenarios": [
+      "storm",
+      "sensor_fault",
+      "moving_front",
+      "intermittent"
+    ],
+    "selection": "best constant of nine by development mean step reward; all three trained policies reported; no best-seed selection on test; compare neutral action 4 too"
+  }
+}

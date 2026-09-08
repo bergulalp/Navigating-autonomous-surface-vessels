@@ -1,0 +1,74 @@
+{
+  "selected": {
+    "radius": 0.85,
+    "coverage": 0.705972151017476,
+    "energy_wh": 442.85301447116245,
+    "utility": 0.6875199420811776
+  },
+  "candidates": [
+    {
+      "radius": 0.75,
+      "coverage": 0.6883141244406473,
+      "energy_wh": 511.0757012805023,
+      "utility": 0.6670193035539598
+    },
+    {
+      "radius": 0.8,
+      "coverage": 0.7043181117307231,
+      "energy_wh": 476.94953667410664,
+      "utility": 0.6844452143693021
+    },
+    {
+      "radius": 0.85,
+      "coverage": 0.705972151017476,
+      "energy_wh": 442.85301447116245,
+      "utility": 0.6875199420811776
+    },
+    {
+      "radius": 0.9,
+      "coverage": 0.6940070613721313,
+      "energy_wh": 408.79441450886344,
+      "utility": 0.6769739607675953
+    },
+    {
+      "radius": 0.95,
+      "coverage": 0.6703395020103677,
+      "energy_wh": 375.0274356359179,
+      "utility": 0.6547133588588712
+    },
+    {
+      "radius": 1.0,
+      "coverage": 0.6315960497426404,
+      "energy_wh": 363.3722426890212,
+      "utility": 0.6164555396305978
+    },
+    {
+      "radius": 1.05,
+      "coverage": 0.5857612077418793,
+      "energy_wh": 374.98968644104093,
+      "utility": 0.5701366374735026
+    },
+    {
+      "radius": 1.1,
+      "coverage": 0.5273704460612646,
+      "energy_wh": 408.7549422767886,
+      "utility": 0.510338990133065
+    }
+  ],
+  "scenarios": [
+    "calm",
+    "storm",
+    "intermittent",
+    "sensor_fault",
+    "moving_front",
+    "blackout"
+  ],
+  "seeds": [
+    110,
+    111,
+    112,
+    113
+  ],
+  "selection": "Equal scenario mixture; C-0.025*E/(N*100W*T/3600). All deployment energy included.",
+  "extension_sha256": "f000d324411431a807bac72657424c44472cc457a2b2f856442e941850c00046"
+}

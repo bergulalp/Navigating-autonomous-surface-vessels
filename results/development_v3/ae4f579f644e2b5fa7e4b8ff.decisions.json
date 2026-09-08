@@ -1,0 +1,1142 @@
+[
+  {
+    "t": 0.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.0020383896536425583,
+    "predicted_coverage": 0.8965413085123304,
+    "predicted_energy_wh": 2.008475124141805,
+    "moving_vessels": 2,
+    "activity": [
+      0.2954352320466512,
+      0.2917326715992452,
+      0.2244359749943393,
+      0.26276650539720714,
+      0.3793152959512581,
+      0.22693262113378804
+    ]
+  },
+  {
+    "t": 60.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 6,
+    "predicted_gain": 0.0018660070129234985,
+    "predicted_coverage": 0.8156272960636203,
+    "predicted_energy_wh": 4.745490035022944,
+    "moving_vessels": 2,
+    "activity": [
+      0.5601054289260023,
+      0.5521555394703497,
+      0.44895198301659595,
+      0.49379720242055924,
+      0.5023949623062318,
+      0.50003321324741
+    ]
+  },
+  {
+    "t": 120.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8875076925571368,
+    "predicted_energy_wh": 0.11130381193685938,
+    "moving_vessels": 0,
+    "activity": [
+      0.6861772564263435,
+      0.6731336210672262,
+      0.6048568353475456,
+      0.6666214949682352,
+      0.6884099206065422,
+      0.6388809961501587
+    ]
+  },
+  {
+    "t": 180.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 3,
+    "predicted_gain": 0.001526128489873102,
+    "predicted_coverage": 0.881174434481685,
+    "predicted_energy_wh": 2.140834991419807,
+    "moving_vessels": 2,
+    "activity": [
+      0.7530414228310375,
+      0.7575041921102342,
+      0.7227847991306902,
+      0.7903517073081174,
+      0.7549997840917446,
+      0.7470953375289224
+    ]
+  },
+  {
+    "t": 240.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7681885788042849,
+    "predicted_energy_wh": 0.06502434483485416,
+    "moving_vessels": 0,
+    "activity": [
+      0.8419454231548735,
+      0.8269472423022441,
+      0.8064883907067166,
+      0.8392804935160536,
+      0.7418504732302434,
+      0.8380967736994003
+    ]
+  },
+  {
+    "t": 300.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0027214766112094724,
+    "predicted_coverage": 0.8369640852770667,
+    "predicted_energy_wh": 0.31501067676958944,
+    "moving_vessels": 2,
+    "activity": [
+      0.8498349222301892,
+      0.7416151216739506,
+      0.8468046095488594,
+      0.8289580777762156,
+      0.8366863933817197,
+      0.8777881096422633
+    ]
+  },
+  {
+    "t": 360.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9402062152423669,
+    "predicted_energy_wh": 0.00715400571308548,
+    "moving_vessels": 0,
+    "activity": [
+      0.7623504491343597,
+      0.8358484063205651,
+      0.8384517266850483,
+      0.7937993659630561,
+      0.8346325520849806,
+      0.8544364901488792
+    ]
+  },
+  {
+    "t": 420.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7507554887386867,
+    "predicted_energy_wh": 2.572828197047554e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.8438745412742201,
+      0.8804224483668438,
+      0.8685442087940745,
+      0.832651180373059,
+      0.7973961847599151,
+      0.9044483983315346
+    ]
+  },
+  {
+    "t": 480.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0007615263701004071,
+    "predicted_coverage": 0.8962881023331187,
+    "predicted_energy_wh": 0.36952826938821437,
+    "moving_vessels": 2,
+    "activity": [
+      0.8750493673162919,
+      0.8842182183549541,
+      0.9141810707221256,
+      0.8828384602251947,
+      0.8645182536444326,
+      0.9300552516539795
+    ]
+  },
+  {
+    "t": 540.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0006683222005872125,
+    "predicted_coverage": 0.689141126052704,
+    "predicted_energy_wh": 0.41057873611826723,
+    "moving_vessels": 2,
+    "activity": [
+      0.8511129191694705,
+      0.8446258923879464,
+      0.9411459998754781,
+      0.9206572104935966,
+      0.9057783316264975,
+      0.9111966188125593
+    ]
+  },
+  {
+    "t": 600.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7835742393593036,
+    "predicted_energy_wh": 0.010635638707019284,
+    "moving_vessels": 0,
+    "activity": [
+      0.860030224482075,
+      0.8719827035305181,
+      0.956581254390485,
+      0.9381079287687302,
+      0.9273201355018807,
+      0.9318100960431591
+    ]
+  },
+  {
+    "t": 660.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8609627727735552,
+    "predicted_energy_wh": 0.0001326513148369226,
+    "moving_vessels": 0,
+    "activity": [
+      0.8352090795025227,
+      0.8070384332943723,
+      0.8690399455140505,
+      0.8413459696683923,
+      0.950039313102222,
+      0.8436168705862404
+    ]
+  },
+  {
+    "t": 720.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8449105441313373,
+    "predicted_energy_wh": 2.5560389542780363e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.8215979437242737,
+      0.7370838091969323,
+      0.7769006339626408,
+      0.7513054443333779,
+      0.9633177607184672,
+      0.765372190074027
+    ]
+  },
+  {
+    "t": 780.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.003323831545749445,
+    "predicted_coverage": 0.9117183000348605,
+    "predicted_energy_wh": 0.22893940515575875,
+    "moving_vessels": 2,
+    "activity": [
+      0.7517741890746124,
+      0.8335633513706249,
+      0.697826699438572,
+      0.6802642658999671,
+      0.8632033582023139,
+      0.7088721025926962
+    ]
+  },
+  {
+    "t": 840.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8432317304042319,
+    "predicted_energy_wh": 0.00387755196002679,
+    "moving_vessels": 0,
+    "activity": [
+      0.7730949597128082,
+      0.6690090272508095,
+      0.6682414306915221,
+      0.6457000732874743,
+      0.908658262779851,
+      0.6801476992405763
+    ]
+  },
+  {
+    "t": 900.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8740964846696303,
+    "predicted_energy_wh": 6.521915395948378e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.8013810738223326,
+      0.7908391634840715,
+      0.6826287204350179,
+      0.6753015561703942,
+      0.8642877632402804,
+      0.7190638779676648
+    ]
+  },
+  {
+    "t": 960.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0032253115563906087,
+    "predicted_coverage": 0.8213364854151539,
+    "predicted_energy_wh": 0.02942028123320568,
+    "moving_vessels": 2,
+    "activity": [
+      0.7938712957836256,
+      0.6669668856796411,
+      0.6570709908598735,
+      0.6576494790431144,
+      0.9096493133478339,
+      0.7013365268609633
+    ]
+  },
+  {
+    "t": 1020.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9111584603807383,
+    "predicted_energy_wh": 0.0008058755266096606,
+    "moving_vessels": 0,
+    "activity": [
+      0.7604263639254237,
+      0.789982987768487,
+      0.6522101674723919,
+      0.6669678138630291,
+      0.8266994128543033,
+      0.7026182764770115
+    ]
+  },
+  {
+    "t": 1080.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7518668970953071,
+    "predicted_energy_wh": 7.177585368054911e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.7275622039242395,
+      0.8134763419713753,
+      0.781488871252277,
+      0.7476804834715969,
+      0.7898500073870647,
+      0.7910346163631197
+    ]
+  },
+  {
+    "t": 1140.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6331102990944535,
+    "predicted_energy_wh": 2.713802984783195e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.8171653952291646,
+      0.8793824111587524,
+      0.8555394791192462,
+      0.7977861951380152,
+      0.8596500765420938,
+      0.8460587236111562
+    ]
+  },
+  {
+    "t": 1200.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.807804414936483,
+    "predicted_energy_wh": 1.3150783737061887e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.8782512966708463,
+      0.7591569384214939,
+      0.7938516574188621,
+      0.7584961154314491,
+      0.9074032048988402,
+      0.8234611485198176
+    ]
+  },
+  {
+    "t": 1260.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0005868549285069635,
+    "predicted_coverage": 0.642956227812633,
+    "predicted_energy_wh": 0.3097419138455233,
+    "moving_vessels": 2,
+    "activity": [
+      0.885883698977189,
+      0.8471156460093892,
+      0.8650867470528376,
+      0.8075990034988785,
+      0.9259970874680163,
+      0.8781543843089803
+    ]
+  },
+  {
+    "t": 1320.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8288948243483283,
+    "predicted_energy_wh": 0.0064305550943676406,
+    "moving_vessels": 0,
+    "activity": [
+      0.9230117656101781,
+      0.7573641704261074,
+      0.8858454720469815,
+      0.8341988173858343,
+      0.8365456143855734,
+      0.9002555899366376
+    ]
+  },
+  {
+    "t": 1380.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8595920082383909,
+    "predicted_energy_wh": 5.2911613473290744e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.9066610774479806,
+      0.8465858744791532,
+      0.8554705432400673,
+      0.8154241079112179,
+      0.7893443623084517,
+      0.8758648265281714
+    ]
+  },
+  {
+    "t": 1440.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.9363637859084938,
+    "predicted_energy_wh": 6.885331514914472e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.9359456805584374,
+      0.7708418735719791,
+      0.862384771425572,
+      0.8489833060381098,
+      0.8577387826325005,
+      0.8865071501967673
+    ]
+  },
+  {
+    "t": 1500.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.003116833064253144,
+    "predicted_coverage": 0.8801419963477873,
+    "predicted_energy_wh": 0.029404239779746672,
+    "moving_vessels": 2,
+    "activity": [
+      0.8739995843707233,
+      0.8548366131584263,
+      0.7955212162435885,
+      0.7928689439296953,
+      0.7720225260132152,
+      0.834425273780329
+    ]
+  },
+  {
+    "t": 1560.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8366640129814855,
+    "predicted_energy_wh": 0.00047994120191428673,
+    "moving_vessels": 0,
+    "activity": [
+      0.9145805535176053,
+      0.8670167939172528,
+      0.8692468828350777,
+      0.8580353884004395,
+      0.8193785669769258,
+      0.893101293905528
+    ]
+  },
+  {
+    "t": 1620.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.002949191870414092,
+    "predicted_coverage": 0.7035278703823935,
+    "predicted_energy_wh": 0.03981286613545266,
+    "moving_vessels": 2,
+    "activity": [
+      0.9272075311469028,
+      0.8405008839684764,
+      0.8586374624236905,
+      0.7481595403096257,
+      0.7369265226279885,
+      0.9289845825258916
+    ]
+  },
+  {
+    "t": 1680.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0027679588497794283,
+    "predicted_coverage": 0.7681342381765283,
+    "predicted_energy_wh": 0.030253734367674364,
+    "moving_vessels": 2,
+    "activity": [
+      0.7182264455940386,
+      0.8130418403964583,
+      0.8183758859311081,
+      0.7506325643571297,
+      0.8334333584813735,
+      0.8828816164714055
+    ]
+  },
+  {
+    "t": 1740.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0034278827712243,
+    "predicted_coverage": 0.6924795538818765,
+    "predicted_energy_wh": 0.029734108666790594,
+    "moving_vessels": 2,
+    "activity": [
+      0.7931231766525859,
+      0.8055691491722299,
+      0.8057600332814736,
+      0.6899748523430544,
+      0.7781048796873654,
+      0.9202635372099416
+    ]
+  },
+  {
+    "t": 1800.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8272781147056077,
+    "predicted_energy_wh": 0.0008888323374159053,
+    "moving_vessels": 0,
+    "activity": [
+      0.8295487610408965,
+      0.8672706132367479,
+      0.8743165566252651,
+      0.7952302091200885,
+      0.7454853146155691,
+      0.9358013493020947
+    ]
+  },
+  {
+    "t": 1860.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7259554893124838,
+    "predicted_energy_wh": 2.148754593932369e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.7947160000677025,
+      0.8948717077587942,
+      0.8952913477425044,
+      0.7857381079574338,
+      0.8382789963742666,
+      0.8879593249575093
+    ]
+  },
+  {
+    "t": 1920.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8811714787803826,
+    "predicted_energy_wh": 1.6468531185414557e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.7485962252199949,
+      0.9295022750113849,
+      0.8400473882178828,
+      0.7887089813056021,
+      0.8194148583349399,
+      0.856800009895476
+    ]
+  },
+  {
+    "t": 1980.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 6,
+    "predicted_gain": 0.0010754245154040998,
+    "predicted_coverage": 0.827298521819145,
+    "predicted_energy_wh": 1.928699665476214,
+    "moving_vessels": 2,
+    "activity": [
+      0.7535097574719167,
+      0.9502979252949045,
+      0.8375515170905881,
+      0.787124304226476,
+      0.7391656949773765,
+      0.8209111407569492
+    ]
+  },
+  {
+    "t": 2040.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.001607197380392611,
+    "predicted_coverage": 0.6936505607034985,
+    "predicted_energy_wh": 0.2308177636218069,
+    "moving_vessels": 2,
+    "activity": [
+      0.74296897360327,
+      0.9618916071567627,
+      0.7901567019240894,
+      0.7102609548982,
+      0.7561750680497719,
+      0.7488624869149403
+    ]
+  },
+  {
+    "t": 2100.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.003227347491410515,
+    "predicted_coverage": 0.6521471955409482,
+    "predicted_energy_wh": 0.3506763865383613,
+    "moving_vessels": 2,
+    "activity": [
+      0.8047256513309786,
+      0.9584674691585832,
+      0.6691371185825316,
+      0.6536963843544775,
+      0.7898316504489611,
+      0.8394296524202662
+    ]
+  },
+  {
+    "t": 2160.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7770613043463855,
+    "predicted_energy_wh": 0.01522974871767754,
+    "moving_vessels": 0,
+    "activity": [
+      0.7228182726405916,
+      0.8924702195375193,
+      0.5965518091680126,
+      0.691138617686692,
+      0.8650858451009926,
+      0.7707231575094139
+    ]
+  },
+  {
+    "t": 2220.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7688554917629254,
+    "predicted_energy_wh": 9.861155406494922e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.6952496399431874,
+      0.7995066408190431,
+      0.5347886296175154,
+      0.7217171690253974,
+      0.9106063169681968,
+      0.7195991609450292
+    ]
+  },
+  {
+    "t": 2280.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7513719617049962,
+    "predicted_energy_wh": 3.490426551750837e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.694160488356534,
+      0.7751547098833993,
+      0.4776866915848511,
+      0.6912607582813357,
+      0.9381623168327151,
+      0.6978743118837283
+    ]
+  },
+  {
+    "t": 2340.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7503744144065055,
+    "predicted_energy_wh": 6.875672040907422e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.6934973227232066,
+      0.7634428256114925,
+      0.44502236489625807,
+      0.6745188004139808,
+      0.9547447314340417,
+      0.6900006668364501
+    ]
+  },
+  {
+    "t": 2400.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0007812885193929642,
+    "predicted_coverage": 0.6533142999985547,
+    "predicted_energy_wh": 0.3162706748050723,
+    "moving_vessels": 2,
+    "activity": [
+      0.8015229649221125,
+      0.8335196054885823,
+      0.5165653836631314,
+      0.6530900045536733,
+      0.9338363788578457,
+      0.8041987168436037
+    ]
+  },
+  {
+    "t": 2460.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.002634441367466933,
+    "predicted_coverage": 0.745510424182624,
+    "predicted_energy_wh": 0.035032458814809375,
+    "moving_vessels": 2,
+    "activity": [
+      0.7520612092034469,
+      0.6561291797758682,
+      0.4658195811226583,
+      0.6681554074464032,
+      0.9514188861236196,
+      0.7424558700474124
+    ]
+  },
+  {
+    "t": 2520.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0033471193116377806,
+    "predicted_coverage": 0.8703780127395646,
+    "predicted_energy_wh": 0.02874601341325348,
+    "moving_vessels": 2,
+    "activity": [
+      0.5974744452205046,
+      0.7809779468049515,
+      0.5153061401344938,
+      0.6263014900195434,
+      0.8262061927486559,
+      0.7494222770804155
+    ]
+  },
+  {
+    "t": 2580.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7655809111914627,
+    "predicted_energy_wh": 0.0006760787050939433,
+    "moving_vessels": 0,
+    "activity": [
+      0.5757584095841509,
+      0.561581383106505,
+      0.4923394865052175,
+      0.6594232493080638,
+      0.8835327583294701,
+      0.7065743897726502
+    ]
+  },
+  {
+    "t": 2640.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7586247388494409,
+    "predicted_energy_wh": 1.4138822348152447e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.5679710032858803,
+      0.49182922126738127,
+      0.4534969396069255,
+      0.6813899423518506,
+      0.9187559966796033,
+      0.6676195482464427
+    ]
+  },
+  {
+    "t": 2700.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8385120561174876,
+    "predicted_energy_wh": 4.3407216249748895e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.5289063444293366,
+      0.6802660283462322,
+      0.48835031922339767,
+      0.6384432255129112,
+      0.7436056456352096,
+      0.6947730230210503
+    ]
+  },
+  {
+    "t": 2760.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.001870333647222444,
+    "predicted_coverage": 0.7071289527053883,
+    "predicted_energy_wh": 0.23764528616103278,
+    "moving_vessels": 2,
+    "activity": [
+      0.633930825889546,
+      0.7153474909196053,
+      0.5309925847040364,
+      0.6410700582705613,
+      0.8345795176430943,
+      0.7267580554386159
+    ]
+  },
+  {
+    "t": 2820.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.0011417610927699773,
+    "predicted_coverage": 0.6158326605005945,
+    "predicted_energy_wh": 0.3584383839712039,
+    "moving_vessels": 2,
+    "activity": [
+      0.7178122189359846,
+      0.7433562965548484,
+      0.5181022834942646,
+      0.6434709473971805,
+      0.879559948242616,
+      0.8256341745603448
+    ]
+  },
+  {
+    "t": 2880.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7977349299088853,
+    "predicted_energy_wh": 0.00934967675615109,
+    "moving_vessels": 0,
+    "activity": [
+      0.7907535509637487,
+      0.6493388289634003,
+      0.6021364386606998,
+      0.7423199932689717,
+      0.8588709379530783,
+      0.8850850071124985
+    ]
+  },
+  {
+    "t": 2940.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.002471300036772095,
+    "predicted_coverage": 0.7203937874816737,
+    "predicted_energy_wh": 0.03046767279910117,
+    "moving_vessels": 2,
+    "activity": [
+      0.8091471382595593,
+      0.6937590711761117,
+      0.5852255189737458,
+      0.7307376843778253,
+      0.9044927147900579,
+      0.7193948587172803
+    ]
+  },
+  {
+    "t": 3000.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7674495920662147,
+    "predicted_energy_wh": 0.0010325873948487797,
+    "moving_vessels": 0,
+    "activity": [
+      0.8712730301611391,
+      0.7183382855753351,
+      0.6851281339244084,
+      0.8238004110100211,
+      0.9293899344715348,
+      0.8216928768921159
+    ]
+  },
+  {
+    "t": 3060.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.795941522665415,
+    "predicted_energy_wh": 3.2047831199139025e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.8803136552584347,
+      0.6675048539982842,
+      0.7103351407830913,
+      0.8558294571543497,
+      0.9329615487374959,
+      0.884360776808452
+    ]
+  },
+  {
+    "t": 3120.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.772952482979523,
+    "predicted_energy_wh": 5.596945331878275e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.9043951707242028,
+      0.7196858296237705,
+      0.7358955021310534,
+      0.8807713063499395,
+      0.9502235454149278,
+      0.9180931118125863
+    ]
+  },
+  {
+    "t": 3180.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 7,
+    "predicted_gain": 0.0022190550461783642,
+    "predicted_coverage": 0.6931684056169932,
+    "predicted_energy_wh": 0.037872753585354545,
+    "moving_vessels": 2,
+    "activity": [
+      0.9185132311806385,
+      0.8210781373680038,
+      0.7802848475535085,
+      0.8548204050508872,
+      0.9613866326782701,
+      0.8482172019311098
+    ]
+  },
+  {
+    "t": 3240.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7498706845924538,
+    "predicted_energy_wh": 0.0008231195625349505,
+    "moving_vessels": 0,
+    "activity": [
+      0.8357904724814491,
+      0.8175946707766262,
+      0.6889571335767964,
+      0.8339057823903842,
+      0.9669610266325008,
+      0.7716572833906536
+    ]
+  },
+  {
+    "t": 3300.0,
+    "accepted": true,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 2,
+    "predicted_gain": 0.001251328066648516,
+    "predicted_coverage": 0.6266333098087618,
+    "predicted_energy_wh": 0.29144032816392523,
+    "moving_vessels": 2,
+    "activity": [
+      0.7956144078780162,
+      0.8622792393327936,
+      0.6770369730589592,
+      0.7985543272084448,
+      0.9703810196174777,
+      0.7171459711960558
+    ]
+  },
+  {
+    "t": 3360.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.7558433003187238,
+    "predicted_energy_wh": 0.006355843409329477,
+    "moving_vessels": 0,
+    "activity": [
+      0.8461049515309269,
+      0.8256193264104137,
+      0.7086944120376903,
+      0.8589265000316221,
+      0.9710736351752502,
+      0.792274673515874
+    ]
+  },
+  {
+    "t": 3420.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6764848317817987,
+    "predicted_energy_wh": 4.492214901173777e-05,
+    "moving_vessels": 0,
+    "activity": [
+      0.7977790013566213,
+      0.7895904786789555,
+      0.7397673980179632,
+      0.8062035861190204,
+      0.9727554774764045,
+      0.7252186080526449
+    ]
+  },
+  {
+    "t": 3480.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.8557459017127602,
+    "predicted_energy_wh": 1.933384250231361e-06,
+    "moving_vessels": 0,
+    "activity": [
+      0.6817417274820472,
+      0.864560378906337,
+      0.6982928302570539,
+      0.7282359237608386,
+      0.8457541016115333,
+      0.7646163822899397
+    ]
+  },
+  {
+    "t": 3540.0,
+    "accepted": false,
+    "stale_hold": false,
+    "proposed": 10,
+    "proposal": 0,
+    "predicted_gain": 0.0,
+    "predicted_coverage": 0.6707207397581941,
+    "predicted_energy_wh": 8.800655357551321e-07,
+    "moving_vessels": 0,
+    "activity": [
+      0.7085390709473582,
+      0.8153232388601257,
+      0.7078935483202047,
+      0.7155045062090906,
+      0.8969464040306169,
+      0.7492149601153777
+    ]
+  }
+]

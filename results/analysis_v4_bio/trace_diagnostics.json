@@ -1,0 +1,19 @@
+{
+  "scope": "Post-hoc descriptive analysis of presaved first main seed (17000), four scenarios and two profiles; not an independent ablation.",
+  "linear_inhibition": {
+    "traced_missions": 8,
+    "nonstale_decisions": 313,
+    "mean_maximum_support": 0.07085342467224849,
+    "fraction_maximum_above_threshold": 0.003194888178913738,
+    "maximum_support": 0.512214216786219,
+    "mean_total_committed": 0.4054041626036844
+  },
+  "nonlinear_inhibition": {
+    "traced_missions": 8,
+    "nonstale_decisions": 310,
+    "mean_maximum_support": 0.09074285118550611,
+    "fraction_maximum_above_threshold": 0.012903225806451613,
+    "maximum_support": 0.4844191020686096,
+    "mean_total_committed": 0.5117417071792779
+  }
+}

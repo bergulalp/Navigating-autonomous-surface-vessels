@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "physical_sha256": "24bfb8b9aac5b87f9f268595cf4462964bd3a01da9d8089f51ed740d780fee86",
+  "extension_sha256": "f000d324411431a807bac72657424c44472cc457a2b2f856442e941850c00046",
+  "rl_source_sha256": "5113616c5fa00215ac2ca5cfa63d5545c3ead1d5a52d320aad84b253498818e5",
+  "episode_inventory": {
+    "development_v3": 45,
+    "static_selection_nominal": 192,
+    "static_selection_short": 192,
+    "main_nominal": 480,
+    "main_short": 480,
+    "ablation_short": 140,
+    "price_low": 60,
+    "price_high": 60,
+    "shifted_short": 96,
+    "slow_short": 32,
+    "integration_128": 24,
+    "negative_nominal": 48,
+    "negative_short": 48,
+    "native_eval": 18,
+    "native_neutral": 18,
+    "ppo_eval_smoke": 2
+  },
+  "simulation_records": 1897,
+  "learning_evaluation_records": 38,
+  "native_training_episodes": 55,
+  "ppo_smoke_steps": 640,
+  "minimum_separation_m": 690.3876938215724,
+  "collision_steps": 0,
+  "file_checksums_verified": false
+}

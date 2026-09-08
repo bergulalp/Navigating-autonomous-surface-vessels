@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this software and the included research manuscript when using these experiments."
+title: "USV swarm formation research: economic control and biological proposal mechanisms"
+type: software
+authors:
+  - name: "5.9.1. MARIN"
+version: 4.0.0
+date-released: 2026-09-07
+license: MIT
+abstract: "A reproducible synthetic simulation study of delivered sensing freshness, communication and costed formation adaptation for six surface vehicles. Includes raw results, scientific figures, LaTeX manuscript and residual-learning examples."
+keywords:
+  - unmanned surface vessels
+  - formation control
+  - temporal networks
+  - age of information
+  - reproducible simulation

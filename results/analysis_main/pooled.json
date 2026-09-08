@@ -1,0 +1,105 @@
+[
+  {
+    "a": "economic",
+    "b": "static_tuned",
+    "metric": "delivered",
+    "n": 20,
+    "difference": 0.009526461112462076,
+    "ci_low": 0.007710355420723114,
+    "ci_high": 0.011291043353671386,
+    "p_sign": 4.999750012499375e-05
+  },
+  {
+    "a": "economic",
+    "b": "static_tuned",
+    "metric": "energy_wh",
+    "n": 20,
+    "difference": 28.08680957184426,
+    "ci_low": 25.857037797253223,
+    "ci_high": 30.289622847333824,
+    "p_sign": 4.999750012499375e-05
+  },
+  {
+    "a": "economic",
+    "b": "adaptive",
+    "metric": "delivered",
+    "n": 20,
+    "difference": 0.01687253894515578,
+    "ci_low": 0.014820606532813424,
+    "ci_high": 0.01901468973834633,
+    "p_sign": 4.999750012499375e-05
+  },
+  {
+    "a": "economic",
+    "b": "adaptive",
+    "metric": "energy_wh",
+    "n": 20,
+    "difference": -757.9933357548027,
+    "ci_low": -796.432646493307,
+    "ci_high": -718.7769992100601,
+    "p_sign": 4.999750012499375e-05
+  },
+  {
+    "a": "fungal",
+    "b": "economic",
+    "metric": "delivered",
+    "n": 20,
+    "difference": 0.0010927897899628447,
+    "ci_low": 0.000389222390199023,
+    "ci_high": 0.0017839923366262996,
+    "p_sign": 0.008599570021498925,
+    "p_holm": 0.01719914004299785
+  },
+  {
+    "a": "fungal",
+    "b": "economic",
+    "metric": "energy_wh",
+    "n": 20,
+    "difference": 5.600314249685655,
+    "ci_low": 3.112300426405871,
+    "ci_high": 8.288993804828241,
+    "p_sign": 0.00044997750112494374
+  },
+  {
+    "a": "deadline_fusion",
+    "b": "fungal",
+    "metric": "delivered",
+    "n": 20,
+    "difference": 0.0006795883938968295,
+    "ci_low": 0.00015427744424745512,
+    "ci_high": 0.0012041602265710175,
+    "p_sign": 0.024598770061496925,
+    "p_holm": 0.024598770061496925
+  },
+  {
+    "a": "deadline_fusion",
+    "b": "fungal",
+    "metric": "energy_wh",
+    "n": 20,
+    "difference": 4.7418904656902665,
+    "ci_low": 1.4342693348568352,
+    "ci_high": 8.060699071889884,
+    "p_sign": 0.013399330033498325
+  },
+  {
+    "a": "recruitment",
+    "b": "greedy_sparse",
+    "metric": "delivered",
+    "n": 20,
+    "difference": -0.001910557719695799,
+    "ci_low": -0.002627658059434577,
+    "ci_high": -0.001142025912854996,
+    "p_sign": 0.0002999850007499625,
+    "p_holm": 0.0008999550022498875
+  },
+  {
+    "a": "recruitment",
+    "b": "greedy_sparse",
+    "metric": "energy_wh",
+    "n": 20,
+    "difference": -2.749430936369973,
+    "ci_low": -4.127910456877693,
+    "ci_high": -1.3242894596917456,
+    "p_sign": 0.002199890005499725
+  }
+]

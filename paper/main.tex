@@ -1,0 +1,178 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[margin=18mm,columnsep=7mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern,microtype}
+\usepackage{amsmath,amssymb,amsthm,bm}
+\usepackage{graphicx,booktabs,array,tabularx,multirow}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{enumitem}
+\usepackage{xurl}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage{balance}
+\usepackage{placeins}
+\renewcommand{\topfraction}{0.95}
+\renewcommand{\dbltopfraction}{0.95}
+\renewcommand{\textfraction}{0.05}
+\renewcommand{\floatpagefraction}{0.75}
+\renewcommand{\dblfloatpagefraction}{0.75}
+\setcounter{topnumber}{3}
+\setcounter{dbltopnumber}{3}
+\setlength{\parskip}{2pt}
+\setlength{\emergencystretch}{1.5em}
+\setlist[itemize]{leftmargin=*,nosep}
+\newcommand{\E}{\mathbb E}
+\newcommand{\Prb}{\mathbb P}
+\newcommand{\R}{\mathbb R}
+\newcommand{\1}{\mathbf 1}
+% Primitive input keeps file-hook tokens outside tabular row alignment.
+\newcommand{\inputtablerows}[1]{\csname @@input\endcsname #1 }
+\newtheorem{proposition}{Proposition}
+\title{\vspace{-7mm}Deadline-aware formation adaptation for surface-vehicle monitoring:\\
+economic control and tests of biological proposal mechanisms}
+\author{5.9.1. MARIN\\[-1mm]\small USV swarm project}
+\date{\small Research manuscript, version 4, 7 September 2026}
+\hypersetup{pdfauthor={5.9.1. MARIN},pdftitle={Deadline-aware formation adaptation for surface-vehicle monitoring},pdfsubject={Synthetic maritime monitoring research; version 4}}
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{generated/v4_abstract.tex}
+\end{abstract}
+\noindent\textbf{Keywords:} unmanned surface vessels; delivered sensing coverage;
+temporal networks; age of information; biological transport networks;
+formation adaptation; reproducible simulation.
+
+\section{Introduction}
+An unmanned surface vessel (USV) can detect an event without delivering a useful
+report to its coordinator. Waves can reduce visibility, radio conditions can
+interrupt a relay path, and a command can arrive after the geometry that motivated
+it has changed. Expanding a formation may improve sensing while weakening delivery;
+contracting it may restore radio links while leaving monitoring gaps. The relevant
+control question is therefore not simply whether the vessels cover an area or
+whether a graph is connected. It is whether changing their physical positions
+improves timely information at an acceptable movement cost.
+
+Coverage control has a substantial established literature, including distributed
+locational optimization~\cite{cortes2004} and heterogeneous sensing
+capabilities~\cite{santos2018}. Biological motivation is also established in USV
+control: constrained waterjet-USV formation control using bioinspired
+neurodynamics predates this work~\cite{wang2019}. A recent UAV study jointly treats
+information age, reliability and connectivity~\cite{bafarassat2026}. Accordingly,
+neither adaptive coverage, biological inspiration, nor their broad combination
+with connectivity is claimed here as a new research area.
+
+This study addresses a narrower engineering question. When sensing and
+communication share environmental disturbances, can a controller use
+deadline-respecting delivery estimates to decide \emph{which small formation
+changes are worth executing}? We also ask whether two recent biological ideas
+offer useful movement proposals: branching/fusion in fungal transport networks,
+and interaction-dependent movement heterogeneity in foraging ants. A second, separately frozen study tests reciprocal movement timing and nonlinear option inhibition, and evaluates three short PPO training runs against all nine constant high-level settings.
+
+The contribution is an inspectable synthesis and its controlled evaluation:
+(i) a common economic acceptance rule with finite movement forecasts;
+(ii) an explicit transfer from hydraulic link importance to deadline-dependent
+radio-link importance; and (iii) paired tests against a development-selected
+static formation and conventional local controls. The Bernoulli sensitivity
+identity and resistor-network differentiation used in the transfer are standard
+mathematical tools, not newly discovered theorems. Whether the resulting
+combination merits a publishable novelty claim depends on comparison with further
+close prior art and validation beyond the synthetic setting.
+
+\section{Related work and biological transfer}
+\subsection{Coverage, communications and dynamics}
+Classical coverage methods connect vehicle positions to spatial sensing costs;
+heterogeneous formulations allow different sensing modalities or capabilities
+to receive different spatial responsibilities~\cite{cortes2004,santos2018}.
+Those ideas motivate a conventional coverage-gradient comparator, but a spatial
+coverage score alone does not describe a report's arrival before a deadline.
+
+The age-of-information (AoI) framework measures the elapsed time since the source
+timestamp of the newest update received at a monitor~\cite{yates2016}. The present
+primary outcome is a weighted deadline-violation complement, rather than mean AoI.
+It is sensitive to both sensing failures and time-ordered relay opportunities.
+Bafarassat and Coleri's 2026 preprint couples UAV information urgency and
+connectivity using successive convex approximation and finite-blocklength
+reliability~\cite{bafarassat2026}. Its stated architecture forwards sensed payloads
+directly to a fusion center while inter-UAV links support coordination. The present
+simulator explicitly caches and forwards reports over changing multihop paths.
+This distinction identifies a modeling focus; it does not establish superiority
+over that method. We do not reproduce its optimization problem or claim a
+state-of-the-art benchmark against it.
+
+For physical deployment, surface-craft dynamics are naturally represented by
+inertia, Coriolis, damping and forcing terms in a marine-craft
+model~\cite{fossen2021}. Our simulator instead uses a simpler planar guidance and
+response model. Its controlled stochastic comparisons are useful for evaluating
+high-level decisions, but its energy and weather curves must be fitted before
+they can support vessel-specific operational claims.
+
+\subsection{Fungal construction and transport}
+Oyarte Galvez et al.\ observed expanding fungal networks with a pulse of growing
+tips followed by a saturating filament-density wave~\cite{oyarte2025}. Their
+branching and annihilating range-expansion model couples tip density $n$ and
+filament density $\rho$:
+\begin{align}
+ \partial_t n &= b(n)-a(n,\rho)+\nabla\cdot \bm J(n),\\
+ \partial_t \rho &= vn .
+\end{align}
+Linear branching $b(n)=\alpha n$ and density-dependent anastomosis
+$a(n,\rho)=\beta n\rho$ are compatible with the observed wave behavior.
+A 2026 preprint by Lucas et al.\ studies local branching, fusion and stopping
+rules under a fixed network-length budget, comparing the generated networks
+with biological multi-objective trade-offs~\cite{lucas2026}. Related physical
+work explains loop formation near network breakthrough~\cite{zukowski2024}.
+
+These observations suggest separating sensing expansion from transport repair.
+However, a fixed-size USV team cannot reproduce by branching, leave permanent
+conducting filaments behind, or fuse its hulls. We therefore transfer
+\emph{proposal roles}: a branching direction increases prospective sensing;
+a fusion direction improves transport; a stopping rule rejects an unprofitable
+reconfiguration. No fungal growth equation is asserted to govern vessel motion.
+No biological Pareto-optimality result is inherited by the controller.
+
+Adjacent biological transport-network inspiration is already robot-networking
+prior art. Martinelli
+et al.\ describe a Physarum-inspired mesh mechanism in a simulated port with
+three mobile robots~\cite{martinelli2026}. This comparison concerns a transport
+analogy; Physarum is a slime mould, whereas the branching/fusion growth studies
+above concern fungi. We do not claim first use of biological transport
+inspiration in robot communication. The specific question here is
+whether link reinforcement should be driven by expected timely report delivery,
+including the physical cost of changing the radio geometry.
+
+\subsection{Ant movement heterogeneity}
+Fernandez-Lopez et al.\ study how heterogeneous movement and information transfer
+shape foraging efficiency in \emph{Aphaenogaster senilis}, interpreted through a
+liquid-brain framework~\cite{fernandez2025}. We use this as motivation for
+recruiting a subset of vessels into a new excursion. The implemented activity,
+refractory and coupling equations are stated below and are our engineering
+adaptation. They are not a reproduction of the authors' ant simulator.
+In particular, nominal radio weights are not physical antennal contacts.
+
+The literature search used primary research, author-hosted papers and official
+documentation, with focused searches through 7 September 2026. The accessible
+ant paper metadata/abstract and author explanation support the qualitative
+motivation; its full mathematical supplement could not be retrieved. A claim
+that no robot or drone study has tried an equivalent rule would be unjustified.
+The release includes a source ledger explaining these boundaries.
+
+\input{methods.tex}
+\input{experiments.tex}
+\input{generated/results.tex}
+\FloatBarrier
+\input{v4.tex}
+\input{discussion.tex}
+\section*{Data, software and preparation}
+The accompanying repository contains the complete simulation source,
+configuration files, raw episode records, analysis scripts, figures, this
+\LaTeX{} manuscript, and a staged local run guide. Core physical-simulator and
+experimental-controller hashes are recorded separately. External PPO dependencies are optional for ordinary simulation; both the NumPy learning baseline and the additional short PPO runs were executed. Code, literature triage and manuscript preparation used an AI assistant;
+the release is intended for independent inspection and human scientific review.
+No field experiment, journal acceptance or independently certified novelty is
+reported.
+\FloatBarrier
+\bibliographystyle{unsrt}
+\bibliography{references}
+\appendix
+\input{appendix.tex}
+\end{document}

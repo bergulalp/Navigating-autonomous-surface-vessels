@@ -1,0 +1,80 @@
+{
+  "signature": {
+    "config": {
+      "n": 6,
+      "duration_s": 2400,
+      "dt_s": 5.0,
+      "motion_dt_s": 1.0,
+      "decision_s": 60.0,
+      "warmup_s": 300,
+      "report_ttl_s": 30.0,
+      "telemetry_ttl_s": 40.0,
+      "command_timeout_s": 180.0,
+      "mission_radius_m": 2500.0,
+      "crossing_radius_m": 1800.0,
+      "required_lead_s": 60.0,
+      "grid_angles": 32,
+      "target_count": 20,
+      "priority_turns": 0.6666666666666666,
+      "max_speed_mps": 3.0,
+      "battery_wh": 1800.0,
+      "radio_r50_calm_m": 3200,
+      "radar_r50_calm_m": 1650.0,
+      "camera_r50_calm_m": 650.0,
+      "radio_weather_slope": 1.05,
+      "radar_weather_slope": 1.4,
+      "wave_correlation_m": 350.0,
+      "wave_memory_s": 15.0,
+      "range_process_std": 0.004,
+      "availability_process_std": 0.008,
+      "sensor_model": "logistic",
+      "full_blackout": false,
+      "information_weight": 0.035,
+      "movement_weight": 0.025,
+      "switch_threshold": 0.006,
+      "minimum_dwell_s": 120.0,
+      "evidence_memory_s": 90.0,
+      "habituation_memory_s": 480.0,
+      "habituation_gain": 2.0,
+      "planner_samples": 32,
+      "temporal_planner": true,
+      "transit_lookahead_s": 300.0
+    },
+    "bio_config": {
+      "settle_m": 35.0,
+      "period_s": 120.0,
+      "responsive_max_s": 240.0,
+      "interdependence": 0.5,
+      "inhibition": 1.0,
+      "threshold": 0.3,
+      "steepness": 10.0,
+      "evidence_scale": 0.01,
+      "deliberation": 2.0,
+      "ode_step": 0.02
+    },
+    "bio_sha256": "c0fe73465d6965ca2bb4364f81301a8b440c92e12f3e3c05513c1a0c2330e6a1"
+  },
+  "arguments": {
+    "config": "configs/bio_short.json",
+    "out": "results/bio_pilot",
+    "bio": null,
+    "seeds": 1,
+    "seed_start": 16000,
+    "workers": 2,
+    "policies": [
+      "economic",
+      "periodic_handover",
+      "greedy_handover",
+      "reciprocal_handover",
+      "linear_inhibition",
+      "nonlinear_inhibition"
+    ],
+    "scenarios": [
+      "storm",
+      "moving_front"
+    ],
+    "trace": true
+  },
+  "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39"
+}

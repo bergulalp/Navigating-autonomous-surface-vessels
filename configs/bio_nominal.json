@@ -1,0 +1,7 @@
+{
+  "duration_s": 2400,
+  "warmup_s": 300,
+  "grid_angles": 32,
+  "target_count": 20,
+  "priority_turns": 0.6666666666666666
+}

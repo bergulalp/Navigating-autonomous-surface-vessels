@@ -1,0 +1,10 @@
+{
+  "duration_s": 3600,
+  "warmup_s": 300,
+  "grid_angles": 64,
+  "target_count": 36,
+  "radio_r50_calm_m": 3200,
+  "sensor_model": "probit",
+  "wave_memory_s": 30,
+  "wave_correlation_m": 700
+}

@@ -1,0 +1,3 @@
+# Install the platform-appropriate torch==2.8.0 wheel first; see docs/RL_EXPERIMENT.md.
+gymnasium==1.3.0
+stable-baselines3==2.9.0

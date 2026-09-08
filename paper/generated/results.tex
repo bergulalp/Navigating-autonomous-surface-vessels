@@ -1,0 +1,83 @@
+\section{Results}
+\subsection{Main held-out comparison}
+Table~\ref{tab:main} summarizes the equal-weight six-cell estimand. Intervals
+resample 20 seed blocks, preserving each seed's six conditions.
+Figure~\ref{fig:pareto} shows each scenario separately, including energy.
+\begin{table*}[tbp]
+\centering\small\setlength{\tabcolsep}{4pt}
+\caption{Pooled main results: 20 independent seed blocks, 120 missions per policy.
+Coverage intervals are 95\% bootstrap intervals. Other columns are means.
+Connectivity is instantaneous all-node graph connectivity, not a guarantee.}
+\label{tab:main}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+Policy & \shortstack{Delivered coverage\\(\%, 95\% CI)} & \shortstack{Fleet energy\\(Wh)} & \shortstack{Capped AoI\\(s)} & \shortstack{Connected\\(\%)} & \shortstack{Stale commands\\(\%)}\\
+\midrule
+\inputtablerows{generated/main_table.tex}
+\bottomrule
+\end{tabular}
+\end{table*}
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=.96\textwidth]{figures/coverage_energy.pdf}
+\caption{Coverage--energy outcomes in the six held-out conditions. Each point
+summarizes 20 paired missions; bars show 95\% intervals of the mean. Energy uses
+a logarithmic axis. Higher coverage and lower energy are preferable.}
+\label{fig:pareto}
+\end{figure*}
+
+Compared with tuned static, economic control changes coverage by +0.953 percentage points (95\% CI [0.771, 1.129]) and energy by +28.1 Wh ([25.9, 30.3]).
+
+Compared with earlier adaptive, economic control changes coverage by +1.687 percentage points (95\% CI [1.482, 1.901]) and energy by -758.0 Wh ([-796.4, -718.8]).
+
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=.96\textwidth]{figures/paired_effects.pdf}
+\caption{Paired pooled changes. Positive coverage differences are beneficial;
+positive energy differences represent extra cost. Intervals resample whole seed
+blocks. Biological comparisons are exploratory.}
+\label{fig:paired}
+\end{figure*}
+\subsection{Biological comparisons}
+
+Hydraulic fungal minus economic yields +0.109 coverage points ([0.039, 0.178]; $p_{\mathrm{Holm}}=0.017$) and +5.6 Wh ([3.1, 8.3]).
+
+Deadline fusion minus hydraulic fungal yields +0.068 coverage points ([0.015, 0.120]; $p_{\mathrm{Holm}}=0.025$) and +4.7 Wh ([1.4, 8.1]).
+
+Recruitment minus greedy sparse yields -0.191 coverage points ([-0.263, -0.114]; $p_{\mathrm{Holm}}<0.001$) and -2.7 Wh ([-4.1, -1.3]).
+
+These comparisons concern the complete proposal mechanisms under a common
+acceptance objective. A pooled interval does not imply that every scenario
+benefits, and equal energy prices do not impose exactly equal realized energy.
+The price-sensitivity results provide additional trade-off context.
+The effects are heterogeneous. Economic control versus tuned static gains
+3.23 coverage points in nominal-radio moving priority and 1.94 points with
+shorter radio, but changes coverage by -0.15 points in the shorter-radio
+sensor-fault case. Deadline fusion versus hydraulic fusion gains 0.17 and
+0.19 points in the two storm cells, while changing coverage by -0.03 and
+-0.14 points in the two moving-priority cells. These descriptive cell patterns
+suggest conditions for future hypotheses; they are not independently confirmed
+subgroup discoveries or a reason to discard unfavorable cells.
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=.94\textwidth]{figures/static_selection.pdf}
+\caption{Static-design development data, excluded from held-out estimates.
+The selected radius differs by radio profile. Coverage and the penalized
+selection utility are plotted on a common score scale.}
+\label{fig:static}
+\end{figure*}
+\subsection{Physical trajectories and secondary outcomes}
+
+The main runs recorded 0 collision steps below the simulator's 30 m threshold; the minimum observed pair separation was 690.4 m. This is a measured outcome in these runs, not a formal safety guarantee. Receiver AoI and command staleness are included in Table~\ref{tab:main}; per-scenario secondary outcomes and reference-traffic metrics are retained in the raw data.
+
+\begin{figure*}[tbp]
+\centering
+\includegraphics[width=.94\textwidth]{figures/representative_mission.pdf}
+\caption{Illustrative held-out seed 7000, moving priority, shorter radio.
+The coverage display uses a trailing five-sample average of one-minute trace
+samples. Vessel colors agree between the two lower panels; dots mark final
+positions. This is one trajectory, not the evidence used to select a winning
+policy or a substitute for the paired statistical comparisons.}
+\label{fig:trajectory}
+\end{figure*}
+\input{generated/supplement_results.tex}

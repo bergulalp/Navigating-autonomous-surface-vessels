@@ -1,0 +1,84 @@
+{
+  "status": "passed",
+  "project_identity": "5.9.1. MARIN",
+  "version": "4.0.0",
+  "legacy": {
+    "status": "passed",
+    "physical_sha256": "24bfb8b9aac5b87f9f268595cf4462964bd3a01da9d8089f51ed740d780fee86",
+    "extension_sha256": "f000d324411431a807bac72657424c44472cc457a2b2f856442e941850c00046",
+    "rl_source_sha256": "5113616c5fa00215ac2ca5cfa63d5545c3ead1d5a52d320aad84b253498818e5",
+    "episode_inventory": {
+      "development_v3": 45,
+      "static_selection_nominal": 192,
+      "static_selection_short": 192,
+      "main_nominal": 480,
+      "main_short": 480,
+      "ablation_short": 140,
+      "price_low": 60,
+      "price_high": 60,
+      "shifted_short": 96,
+      "slow_short": 32,
+      "integration_128": 24,
+      "negative_nominal": 48,
+      "negative_short": 48,
+      "native_eval": 18,
+      "native_neutral": 18,
+      "ppo_eval_smoke": 2
+    },
+    "simulation_records": 1897,
+    "learning_evaluation_records": 38,
+    "native_training_episodes": 55,
+    "ppo_smoke_steps": 640,
+    "minimum_separation_m": 690.3876938215724,
+    "collision_steps": 0,
+    "file_checksums_verified": false
+  },
+  "new_episode_inventory": {
+    "bio_pilot": 12,
+    "bio_nominal": 288,
+    "bio_short": 288,
+    "bio_shifted": 96,
+    "bio_integration128": 48,
+    "rl_constant_development": 108,
+    "rl_ppo_development": 36,
+    "rl_final_test": 160
+  },
+  "new_model_based_missions": 732,
+  "new_learning_evaluations": 304,
+  "total_model_based_missions": 2629,
+  "ppo_new_research_steps": 6144,
+  "ppo_new_driver_check_steps": 256,
+  "training": {
+    "0": {
+      "requested_steps": 2048,
+      "actual_added_steps": 2048,
+      "total_steps": 2048,
+      "wall_s": 553.5466064110005,
+      "steps_per_second": 3.699778801424697,
+      "checkpoint_sha256": "573b1d5e360331977a3af4b9782677731b774c24a6e2351729e71c319b189821"
+    },
+    "1": {
+      "requested_steps": 2048,
+      "actual_added_steps": 2048,
+      "total_steps": 2048,
+      "wall_s": 747.7063682879998,
+      "steps_per_second": 2.739043141613522,
+      "checkpoint_sha256": "df32812dc88c2e138428da865c82413180468fe207f76c6a4e026267358a3a04"
+    },
+    "2": {
+      "requested_steps": 2048,
+      "actual_added_steps": 2048,
+      "total_steps": 2048,
+      "wall_s": 575.5768727269997,
+      "steps_per_second": 3.5581693724017667,
+      "checkpoint_sha256": "6620a9a8efd71296573d955aedb529f34c54a7ec7357bbc8bab79ff6a0d51dac"
+    }
+  },
+  "bio_sha256": "c0fe73465d6965ca2bb4364f81301a8b440c92e12f3e3c05513c1a0c2330e6a1",
+  "evaluator_sha256": "c3b8076ac1ae77c8181356d80c04e88e31057ad8d27988f91b6e994e91ee3567",
+  "new_minimum_separation_m": 1299.494448672725,
+  "new_collision_steps": 0,
+  "selected_constant_action": 3,
+  "file_checksums_verified": false,
+  "windows_host_tested": false
+}

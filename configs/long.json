@@ -1,0 +1,7 @@
+{
+  "duration_s": 14400,
+  "warmup_s": 900,
+  "grid_angles": 128,
+  "target_count": 144,
+  "battery_wh": 1800
+}

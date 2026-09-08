@@ -1,0 +1,24 @@
+{
+  "python": "3.12.13 (main, Aug  7 2026, 02:25:39) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.35-x86_64-with-glibc2.39",
+  "dependencies": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.10.8"
+  },
+  "optional_deep_rl_executed": true,
+  "optional_rl_dependencies": {
+    "torch": "2.8.0+cpu",
+    "gymnasium": "1.3.0",
+    "stable_baselines3": "2.9.0"
+  },
+  "validation": {
+    "core_unittests": 17,
+    "native_training_episodes": 55,
+    "native_evaluated_checkpoint_episodes": 50,
+    "native_evaluation_missions_per_policy": 18,
+    "ppo_training_steps": 640,
+    "ppo_evaluation_missions": 2
+  }
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=65"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usv-swarm-research"
+version = "4.0.0"
+description = "Reproducible sensing, communication and formation-control experiments"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24,<3", "scipy>=1.10,<2", "pandas>=2,<4", "matplotlib>=3.7,<4"]
+
+[project.optional-dependencies]
+rl = ["gymnasium>=1.0,<2", "stable-baselines3>=2.4,<3", "torch>=2.3,<3"]
+
+[project.scripts]
+usv-sim = "usv_sim.cli:main"
+usv-experiment = "usv_research.experiment:main"
+
+[tool.setuptools.packages.find]
+include = ["usv_sim*", "usv_research*", "usv_bio*"]

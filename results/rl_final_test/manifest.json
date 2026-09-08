@@ -1,0 +1,180 @@
+{
+  "signature": {
+    "config": {
+      "n": 6,
+      "duration_s": 2400,
+      "dt_s": 5.0,
+      "motion_dt_s": 1.0,
+      "decision_s": 60.0,
+      "warmup_s": 300,
+      "report_ttl_s": 30.0,
+      "telemetry_ttl_s": 40.0,
+      "command_timeout_s": 180.0,
+      "mission_radius_m": 2500.0,
+      "crossing_radius_m": 1800.0,
+      "required_lead_s": 60.0,
+      "grid_angles": 32,
+      "target_count": 20,
+      "priority_turns": 0.6666666666666666,
+      "max_speed_mps": 3.0,
+      "battery_wh": 1800.0,
+      "radio_r50_calm_m": 3200,
+      "radar_r50_calm_m": 1650.0,
+      "camera_r50_calm_m": 650.0,
+      "radio_weather_slope": 1.05,
+      "radar_weather_slope": 1.4,
+      "wave_correlation_m": 350.0,
+      "wave_memory_s": 15.0,
+      "range_process_std": 0.004,
+      "availability_process_std": 0.008,
+      "sensor_model": "logistic",
+      "full_blackout": false,
+      "information_weight": 0.035,
+      "movement_weight": 0.025,
+      "switch_threshold": 0.006,
+      "minimum_dwell_s": 120.0,
+      "evidence_memory_s": 90.0,
+      "habituation_memory_s": 480.0,
+      "habituation_gain": 2.0,
+      "planner_samples": 32,
+      "temporal_planner": true,
+      "transit_lookahead_s": 300.0
+    },
+    "policies": [
+      {
+        "name": "constant_3",
+        "action": 3
+      },
+      {
+        "name": "constant_4",
+        "action": 4
+      },
+      {
+        "name": "ppo_seed0",
+        "checkpoint": "results/ppo_v4_single_seed0/final.zip",
+        "training_seed": 0,
+        "sha256": "573b1d5e360331977a3af4b9782677731b774c24a6e2351729e71c319b189821"
+      },
+      {
+        "name": "ppo_seed1",
+        "checkpoint": "results/ppo_v4_single_seed1/final.zip",
+        "training_seed": 1,
+        "sha256": "df32812dc88c2e138428da865c82413180468fe207f76c6a4e026267358a3a04"
+      },
+      {
+        "name": "ppo_seed2",
+        "checkpoint": "results/ppo_v4_single_seed2/final.zip",
+        "training_seed": 2,
+        "sha256": "6620a9a8efd71296573d955aedb529f34c54a7ec7357bbc8bab79ff6a0d51dac"
+      }
+    ],
+    "evaluator_sha256": "c3b8076ac1ae77c8181356d80c04e88e31057ad8d27988f91b6e994e91ee3567",
+    "split": "test",
+    "scenarios": [
+      "storm",
+      "sensor_fault",
+      "moving_front",
+      "intermittent"
+    ],
+    "seeds": [
+      18000,
+      18001,
+      18002,
+      18003,
+      18004,
+      18005,
+      18006,
+      18007
+    ],
+    "selection": {
+      "selected_action": 3,
+      "criterion": "mean_step_reward",
+      "development_seeds": [
+        15000,
+        15001,
+        15002
+      ],
+      "scenarios": [
+        "storm",
+        "sensor_fault",
+        "moving_front",
+        "intermittent"
+      ],
+      "config": {
+        "n": 6,
+        "duration_s": 2400,
+        "dt_s": 5.0,
+        "motion_dt_s": 1.0,
+        "decision_s": 60.0,
+        "warmup_s": 300,
+        "report_ttl_s": 30.0,
+        "telemetry_ttl_s": 40.0,
+        "command_timeout_s": 180.0,
+        "mission_radius_m": 2500.0,
+        "crossing_radius_m": 1800.0,
+        "required_lead_s": 60.0,
+        "grid_angles": 32,
+        "target_count": 20,
+        "priority_turns": 0.6666666666666666,
+        "max_speed_mps": 3.0,
+        "battery_wh": 1800.0,
+        "radio_r50_calm_m": 3200,
+        "radar_r50_calm_m": 1650.0,
+        "camera_r50_calm_m": 650.0,
+        "radio_weather_slope": 1.05,
+        "radar_weather_slope": 1.4,
+        "wave_correlation_m": 350.0,
+        "wave_memory_s": 15.0,
+        "range_process_std": 0.004,
+        "availability_process_std": 0.008,
+        "sensor_model": "logistic",
+        "full_blackout": false,
+        "information_weight": 0.035,
+        "movement_weight": 0.025,
+        "switch_threshold": 0.006,
+        "minimum_dwell_s": 120.0,
+        "evidence_memory_s": 90.0,
+        "habituation_memory_s": 480.0,
+        "habituation_gain": 2.0,
+        "planner_samples": 32,
+        "temporal_planner": true,
+        "transit_lookahead_s": 300.0
+      },
+      "development_means": {
+        "constant_0": 0.6054916913129346,
+        "constant_1": 0.6063786397050123,
+        "constant_2": 0.6053142553740442,
+        "constant_3": 0.6145142248084495,
+        "constant_4": 0.6130774204974567,
+        "constant_5": 0.6102346224172723,
+        "constant_6": 0.6116999037575671,
+        "constant_7": 0.6121804852034688,
+        "constant_8": 0.6113239576167132
+      },
+      "source_directory": "results/rl_constant_development",
+      "evaluator_sha256": "c3b8076ac1ae77c8181356d80c04e88e31057ad8d27988f91b6e994e91ee3567",
+      "development_manifest_sha256": "a5da710e7b33f9d5de0e17484572ca70390eaf812db5c678fb2758e8fbde32bf"
+    }
+  },
+  "arguments": {
+    "config": "configs/bio_short.json",
+    "out": "results/rl_final_test",
+    "constants": [],
+    "checkpoints": [
+      "results/ppo_v4_single_seed0/final.zip",
+      "results/ppo_v4_single_seed1/final.zip",
+      "results/ppo_v4_single_seed2/final.zip"
+    ],
+    "selection": "results/rl_selection.json",
+    "seeds": 8,
+    "seed_start": 18000,
+    "scenarios": [
+      "storm",
+      "sensor_fault",
+      "moving_front",
+      "intermittent"
+    ],
+    "workers": 2,
+    "split": "test"
+  }
+}

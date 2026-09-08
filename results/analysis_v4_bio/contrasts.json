@@ -1,0 +1,1217 @@
+{
+  "main": [
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "delivered",
+      "n": 12,
+      "difference": -0.002070741126098933,
+      "ci_low": -0.0035134930728614147,
+      "ci_high": -0.0009237075587150526,
+      "p_sign": 0.004199790010499475,
+      "p_holm": 0.00839958002099895
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -5.548360731683729,
+      "ci_low": -6.515496769464823,
+      "ci_high": -4.614359676625888,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": -0.0017239685803686806,
+      "ci_low": -0.0031313866675957633,
+      "ci_high": -0.0006069996621495698,
+      "p_sign": 0.012549372531373431
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 0.19243733143640954,
+      "ci_low": -0.15345849138163276,
+      "ci_high": 0.5569379354072411,
+      "p_sign": 0.3288835558222089
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": -0.0043794536817102075,
+      "ci_low": -0.006012470308788584,
+      "ci_high": -0.002746437054631831,
+      "p_sign": 0.0015499225038748063
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "delivered",
+      "n": 12,
+      "difference": -0.004495654795156678,
+      "ci_low": -0.006277363413894671,
+      "ci_high": -0.0028284316043728558,
+      "p_sign": 0.0005499725013749313,
+      "p_holm": 0.0016499175041247939
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -8.380686075064537,
+      "ci_low": -9.794564471045543,
+      "ci_high": -7.0370228909434465,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": -0.003971861915465141,
+      "ci_low": -0.005689494302317466,
+      "ci_high": -0.002344696293731088,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 0.6045884126157682,
+      "ci_low": 0.22171240342318968,
+      "ci_high": 1.0326756484149247,
+      "p_sign": 0.008499575021248937
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": -0.0027216943784639743,
+      "ci_low": -0.005542359461599371,
+      "ci_high": 0.00014907462391128187,
+      "p_sign": 0.1080445977701115
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "delivered",
+      "n": 12,
+      "difference": 5.412307293593358e-05,
+      "ci_low": -0.00042584553807063915,
+      "ci_high": 0.0006098394014278136,
+      "p_sign": 0.8502074896255187,
+      "p_holm": 0.8502074896255187
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -1.4773092733317081,
+      "ci_low": -3.006140877451611,
+      "ci_high": -0.06652096778007657,
+      "p_sign": 0.0752462376881156
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": 0.00014645490251917007,
+      "ci_low": -0.0003017110258112021,
+      "ci_high": 0.0006622331850413807,
+      "p_sign": 0.5886705664716764
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": -0.011339278421556761,
+      "ci_low": -0.22696937906039266,
+      "ci_high": 0.18095078484504298,
+      "p_sign": 0.9264536773161341
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": -0.00014845605700713102,
+      "ci_low": -0.00235055423594617,
+      "ci_high": 0.0020783847980997603,
+      "p_sign": 0.9164041797910104
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 12,
+      "difference": -0.011436077018678076,
+      "ci_low": -0.013065766537757784,
+      "ci_high": -0.009834661185315327,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -20.79297454310691,
+      "ci_low": -22.814530719393268,
+      "ci_high": -18.453752480516645,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": -0.01013651610973391,
+      "ci_low": -0.011731574805718544,
+      "ci_high": -0.008542575984121647,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 1.6934528300045357,
+      "ci_low": 1.1319144433112793,
+      "ci_high": 2.3041675087108917,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": -0.009624901029295335,
+      "ci_low": -0.011752771179730814,
+      "ci_high": -0.007818685669041966,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 12,
+      "difference": -0.00901116334962033,
+      "ci_low": -0.01063441513760014,
+      "ci_high": -0.007404051324996161,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -17.960649199726106,
+      "ci_low": -20.312869032782753,
+      "ci_high": -15.624164074939458,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": -0.007888622774637458,
+      "ci_low": -0.009508537142297992,
+      "ci_high": -0.006265439337265333,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 1.281301748825178,
+      "ci_low": 0.672757943554399,
+      "ci_high": 1.9246788078623636,
+      "p_sign": 0.0034998250087495625
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": -0.011282660332541564,
+      "ci_low": -0.015068289786223274,
+      "ci_high": -0.007670229612034836,
+      "p_sign": 0.0011499425028748563
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 12,
+      "difference": -0.013506818144777008,
+      "ci_low": -0.01597940552268575,
+      "ci_high": -0.011254416899482707,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -26.34133527479064,
+      "ci_low": -28.951533895189154,
+      "ci_high": -23.619590798310455,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": -0.0118604846901026,
+      "ci_low": -0.014253480554149447,
+      "ci_high": -0.009650076388459456,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 1.8858901614409451,
+      "ci_low": 1.1778933756852492,
+      "ci_high": 2.7456163334497963,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": -0.014004354711005543,
+      "ci_low": -0.017047703879651627,
+      "ci_high": -0.011455859065716542,
+      "p_sign": 0.0005499725013749313
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 12,
+      "difference": 0.000500484758857093,
+      "ci_low": -0.0003431526357699395,
+      "ci_high": 0.0013448696538075466,
+      "p_sign": 0.2935853207339633
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": 0.15110697007206397,
+      "ci_low": -1.7691352057098442,
+      "ci_high": 1.9935600223755525,
+      "p_sign": 0.8914054297285136
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": 0.0004910405732275932,
+      "ci_low": -0.00029916334582786284,
+      "ci_high": 0.001276641425622586,
+      "p_sign": 0.2672866356682166
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 0.01417773002382757,
+      "ci_low": -0.15063463738733296,
+      "ci_high": 0.17463135911497796,
+      "p_sign": 0.8679566021698915
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": 0.000767022961203484,
+      "ci_low": -0.0010391923990498847,
+      "ci_high": 0.0024495249406175875,
+      "p_sign": 0.4301784910754462
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 12,
+      "difference": 0.0005546078317930266,
+      "ci_low": -0.00034685720262066276,
+      "ci_high": 0.0015780313710370619,
+      "p_sign": 0.3173341332933353
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 12,
+      "difference": -1.3262023032596442,
+      "ci_low": -3.379972562082053,
+      "ci_high": 0.6686084100647469,
+      "p_sign": 0.23888805559722015
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 12,
+      "difference": 0.0006374954757467632,
+      "ci_low": -0.0002207025754633579,
+      "ci_high": 0.0015910358550995317,
+      "p_sign": 0.22823858807059647
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 12,
+      "difference": 0.0028384516022725848,
+      "ci_low": -0.18454554916028787,
+      "ci_high": 0.16731936481921,
+      "p_sign": 0.9752012399380031
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 12,
+      "difference": 0.0006185669041963484,
+      "ci_low": -0.0018557007125890913,
+      "ci_high": 0.002696951702296118,
+      "p_sign": 0.648517574121294
+    }
+  ],
+  "bio_shifted": [
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.0027638361490427976,
+      "ci_low": -0.005908497971584548,
+      "ci_high": 0.00038082567349895236,
+      "p_sign": 0.38133093345332736,
+      "p_holm": 0.5036748162591871
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -3.280860086455121,
+      "ci_low": -6.474520153024812,
+      "ci_high": -0.6923940274836013,
+      "p_sign": 0.25163741812909357
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.0025587823936393528,
+      "ci_low": -0.005892573748498109,
+      "ci_high": 0.0005456477654459113,
+      "p_sign": 0.38133093345332736
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": -0.10792288433362351,
+      "ci_low": -1.836281661067627,
+      "ci_high": 1.881672207755411,
+      "p_sign": 1.0
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": 0.0041567695961995214,
+      "ci_low": -0.008758907363420443,
+      "ci_high": 0.012024940617577199,
+      "p_sign": 0.624218789060547
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.003573019440158337,
+      "ci_low": -0.0067076208481590405,
+      "ci_high": -0.001638906650964278,
+      "p_sign": 0.1285935703214839,
+      "p_holm": 0.38578071096445177
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -5.354043546694896,
+      "ci_low": -7.390906266815492,
+      "ci_high": -2.618219243278517,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.003238391718489886,
+      "ci_low": -0.006344163349974896,
+      "ci_high": -0.001185040853051711,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": -0.25236655967567856,
+      "ci_low": -0.5516674735260771,
+      "ci_high": 0.04693435417472003,
+      "p_sign": 0.3768811559422029
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": 0.0011876484560570041,
+      "ci_low": -0.006086698337292182,
+      "ci_high": 0.006086698337292161,
+      "p_sign": 0.7492625368731564
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.0007263249042849251,
+      "ci_low": -0.0013941935728017385,
+      "ci_high": -3.164308728437204e-05,
+      "p_sign": 0.25183740812959354,
+      "p_holm": 0.5036748162591871
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": 0.4551070666124559,
+      "ci_low": -2.9063254442156676,
+      "ci_high": 4.703070480914164,
+      "p_sign": 0.8769561521923904
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.0007547690959482378,
+      "ci_low": -0.00154760142450594,
+      "ci_high": 0.00011217730164947426,
+      "p_sign": 0.3768811559422029
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.26282571060146864,
+      "ci_low": 0.006028806831231748,
+      "ci_high": 0.5374982052844892,
+      "p_sign": 0.25183740812959354
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": 0.0026722090261282645,
+      "ci_low": 0.00029691211401425277,
+      "ci_high": 0.005047505938242276,
+      "p_sign": 0.25163741812909357
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.019316866356522078,
+      "ci_low": -0.02658147745969952,
+      "ci_high": -0.012052255253344635,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -27.26687730966026,
+      "ci_low": -36.78245361703971,
+      "ci_high": -21.168848743880474,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.017612686524668297,
+      "ci_low": -0.024529639151026128,
+      "ci_high": -0.010695733898310467,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 2.240885498454759,
+      "ci_low": 0.8615923682462281,
+      "ci_high": 3.1676851633817265,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.018408551068883613,
+      "ci_low": -0.02464370546318291,
+      "ci_high": -0.01009501187648456,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.01850768306540651,
+      "ci_low": -0.025139307969900188,
+      "ci_high": -0.01189817582396313,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -25.193693849420484,
+      "ci_low": -33.50665611371059,
+      "ci_high": -16.880731585130377,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.016933077199817764,
+      "ci_low": -0.024031559399220914,
+      "ci_high": -0.010483102645741038,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 2.3853291737968156,
+      "ci_low": 0.7802912499248293,
+      "ci_high": 4.600269015210767,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.015439429928741095,
+      "ci_low": -0.019299287410926368,
+      "ci_high": -0.011579572446555823,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.022080702505564875,
+      "ci_low": -0.03184692881805923,
+      "ci_high": -0.01411012173815318,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -30.54773739611538,
+      "ci_low": -39.72662019944207,
+      "ci_high": -22.933736715121057,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.02017146891830765,
+      "ci_low": -0.03037572274919581,
+      "ci_high": -0.012449948269626088,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 2.1329626141211353,
+      "ci_low": 0.5184224280291225,
+      "ci_high": 4.371167630171838,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.014251781472684091,
+      "ci_low": -0.018111638954869388,
+      "ci_high": -0.010688836104513058,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": 6.317037435599193e-05,
+      "ci_low": -0.001328114152596982,
+      "ci_high": 0.0014544549013089658,
+      "p_sign": 1.0
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -0.6006922493199198,
+      "ci_low": -7.845855110650689,
+      "ci_high": 6.644470612010849,
+      "p_sign": 1.0
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": 0.0001007136399384656,
+      "ci_low": -0.0013496122396864374,
+      "ci_high": 0.0015510395195633686,
+      "p_sign": 1.0
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.10777531672486163,
+      "ci_low": -0.31330138849718736,
+      "ci_high": 0.4572143256713659,
+      "p_sign": 0.6250687465626719
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.001187648456057011,
+      "ci_low": -0.0029691211401425277,
+      "ci_high": 0.0005938242280285055,
+      "p_sign": 0.3749812509374531
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.000663154529928961,
+      "ci_low": -0.0017427122443821885,
+      "ci_high": 0.00025461417339622816,
+      "p_sign": 0.37868106594670264
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -0.1455851827074639,
+      "ci_low": -6.255090847571012,
+      "ci_high": 5.963920482156084,
+      "p_sign": 1.0
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.0006540554560097722,
+      "ci_low": -0.0019302996650853999,
+      "ci_high": 7.85556378837815e-05,
+      "p_sign": 0.5020248987550623
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.37060102732633027,
+      "ci_low": 0.19611996772513862,
+      "ci_high": 0.5688602857759832,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": 0.001484560570071257,
+      "ci_low": 0.0008907363420427583,
+      "ci_high": 0.0020783847980997555,
+      "p_sign": 0.1285935703214839
+    }
+  ],
+  "bio_integration128": [
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "delivered",
+      "n": 4,
+      "difference": 0.00033666722352046485,
+      "ci_low": -0.0040559126741999685,
+      "ci_high": 0.004729247121240898,
+      "p_sign": 0.751612419379031,
+      "p_holm": 1
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -6.159779313727981,
+      "ci_low": -11.659319283124475,
+      "ci_high": -2.4990061573932962,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": 0.0007216534306284661,
+      "ci_low": -0.00351311405281568,
+      "ci_high": 0.004956420914072612,
+      "p_sign": 0.751612419379031
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.05903124842199858,
+      "ci_low": -1.1474240678825502,
+      "ci_high": 1.3203824941838889,
+      "p_sign": 0.7527623618819059
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "periodic_handover",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.00504750593824229,
+      "ci_low": -0.014845605700712597,
+      "ci_high": 0.005641330166270768,
+      "p_sign": 0.504674766261687
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.005819707973717642,
+      "ci_low": -0.007415893646458727,
+      "ci_high": -0.0042235223009765566,
+      "p_sign": 0.1285935703214839,
+      "p_holm": 0.38578071096445177
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -6.315922461442526,
+      "ci_low": -9.154720462993254,
+      "ci_high": -3.4771244598917974,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.005424962819877505,
+      "ci_low": -0.006973241240860406,
+      "ci_high": -0.003876684398894603,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 1.2865558576952303,
+      "ci_low": 0.020992271788443873,
+      "ci_high": 2.5521194436020167,
+      "p_sign": 0.25183740812959354
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "greedy_handover",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": 0.008610451306413282,
+      "ci_low": -0.002672209026128289,
+      "ci_high": 0.01781472684085509,
+      "p_sign": 0.25163741812909357
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.00012786921454785438,
+      "ci_low": -0.0020763777182584153,
+      "ci_high": 0.0018407420450449463,
+      "p_sign": 1.0,
+      "p_holm": 1
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": 0.3289716378854024,
+      "ci_low": -3.210335400929239,
+      "ci_high": 3.9484588172067703,
+      "p_sign": 1.0
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.0001484299419156898,
+      "ci_low": -0.0020206436685958895,
+      "ci_high": 0.0017237837847645099,
+      "p_sign": 0.8766561671916404
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.3761450577964318,
+      "ci_low": -0.17776154787065934,
+      "ci_high": 0.9899300446226924,
+      "p_sign": 0.375831208439578
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "linear_inhibition",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": 0.0,
+      "ci_low": -0.003859857482185286,
+      "ci_high": 0.0029691211401425277,
+      "p_sign": 1.0
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.025027644491870366,
+      "ci_low": -0.031621908504347346,
+      "ci_high": -0.019182221779492414,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -27.133811064098808,
+      "ci_low": -33.95784608935699,
+      "ci_high": -20.309776038840624,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.0233317813003642,
+      "ci_low": -0.02989212450952919,
+      "ci_high": -0.017536887448317717,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 1.3723898976014546,
+      "ci_low": 0.2989801739376894,
+      "ci_high": 2.581102394013463,
+      "p_sign": 0.25628718564071795
+    },
+    {
+      "a": "periodic_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.009204275534441794,
+      "ci_low": -0.01543942992874106,
+      "ci_high": -0.0029691211401425277,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.01887126929463226,
+      "ci_low": -0.024479047052322067,
+      "ci_high": -0.013263491536942451,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -26.977667916384263,
+      "ci_low": -33.53585243491062,
+      "ci_high": -19.863237155385377,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.01718516504985823,
+      "ci_low": -0.023059081163858464,
+      "ci_high": -0.011311248935857998,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.14486528832822287,
+      "ci_low": -0.9618969792851715,
+      "ci_high": 1.396611652689682,
+      "p_sign": 0.8749562521873906
+    },
+    {
+      "a": "greedy_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.022862232779097366,
+      "ci_low": -0.030878859857482163,
+      "ci_high": -0.014845605700712569,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": -0.0246909772683499,
+      "ci_low": -0.028702569353298624,
+      "ci_high": -0.020679385183401178,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -33.29359037782679,
+      "ci_low": -38.407469517201676,
+      "ci_high": -24.784666994428648,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": -0.022610127869735736,
+      "ci_low": -0.026935765562753067,
+      "ci_high": -0.018284490176718404,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 1.4314211460234532,
+      "ci_low": 0.20466356270819475,
+      "ci_high": 2.6002593112170693,
+      "p_sign": 0.25628718564071795
+    },
+    {
+      "a": "reciprocal_handover",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.014251781472684084,
+      "ci_low": -0.021971496437054636,
+      "ci_high": -0.006532066508313533,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": 0.0010051505096652646,
+      "ci_low": -0.002591278457510532,
+      "ci_high": 0.005046880090673195,
+      "p_sign": 0.6283685815709215
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -1.0833042014202192,
+      "ci_low": -8.15917838212333,
+      "ci_high": 6.559423677073326,
+      "p_sign": 0.7472626368681566
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": 0.0010728570222540423,
+      "ci_low": -0.0025679962223228714,
+      "ci_high": 0.00555682873955593,
+      "p_sign": 0.7534123293835309
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.06775133710084447,
+      "ci_low": -0.6788334869362203,
+      "ci_high": 0.8938703007117539,
+      "p_sign": 0.8723063846807659
+    },
+    {
+      "a": "linear_inhibition",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.001187648456057011,
+      "ci_low": -0.003859857482185286,
+      "ci_high": 0.0014845605700712639,
+      "p_sign": 0.6259187040647968
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "delivered",
+      "n": 4,
+      "difference": 0.0008772812951174103,
+      "ci_low": -0.001120836645735035,
+      "ci_high": 0.0028753992359698555,
+      "p_sign": 0.6294185290735463
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "energy_wh",
+      "n": 4,
+      "difference": -0.7543325635348168,
+      "ci_low": -10.06490682813076,
+      "ci_high": 5.58378836003692,
+      "p_sign": 1.0
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "postwarmup_utility",
+      "n": 4,
+      "difference": 0.0009244270803383525,
+      "ci_low": -0.0012594691943280667,
+      "ci_high": 0.0033454675480281137,
+      "p_sign": 0.7527623618819059
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "capped_aoi_s",
+      "n": 4,
+      "difference": 0.4438963948972763,
+      "ci_low": 0.19048628635957954,
+      "ci_high": 0.7479144915533702,
+      "p_sign": 0.1285935703214839
+    },
+    {
+      "a": "nonlinear_inhibition",
+      "b": "economic",
+      "metric": "graph_connected",
+      "n": 4,
+      "difference": -0.001187648456057011,
+      "ci_low": -0.0029691211401425277,
+      "ci_high": 0.001187648456057011,
+      "p_sign": 0.5000249987500625
+    }
+  ]
+}
