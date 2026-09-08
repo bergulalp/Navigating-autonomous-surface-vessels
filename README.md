@@ -41,7 +41,6 @@ longer training. No field performance or first-ever biological novelty is claime
 | You want to... | Open this |
 |---|---|
 | Understand the project without coding | [Group brief](docs/GROUP_BRIEF.md) |
-| Send a short update to teammates | [Ready message](docs/TEAM_MESSAGE.md) |
 | Run or continue PPO on Windows | [Windows guide](docs/WINDOWS_RL_START.md) |
 | Read the scientific manuscript | [Paper PDF](paper/main.pdf) |
 | Recompile or use Overleaf | [Overleaf instructions](paper/OVERLEAF_README.md) |

@@ -82,8 +82,6 @@ were exercised on Linux. Actual Windows execution and GitHub CI still need to be
   then compare against fixed settings on separate development and test missions.
 - **Reproducibility checks:** 22 scientific tests passed. The additional release contains
   732 model-based missions and 304 learning evaluations, separately counted from training.
-- **This briefing and TEAM_MESSAGE.md:** share a plain-language explanation of the current
-  status. The message is prepared for copying; it has not been sent to anyone.
 
 The report’s first part explains the sensing/communication model and earlier economic,
 fungal and ant comparisons. “Further biological mechanisms: a separate experiment”
